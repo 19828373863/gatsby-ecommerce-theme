@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-12-08T11:51:46.821Z</updated>
+  <updated>2022-12-08T15:14:56.248Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>网盘资源站</title>
+    <link href="http://example.com/2022/12/08/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/%E7%BD%91%E7%9B%98%E8%B5%84%E6%BA%90%E7%AB%99/"/>
+    <id>http://example.com/2022/12/08/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/%E7%BD%91%E7%9B%98%E8%B5%84%E6%BA%90%E7%AB%99/</id>
+    <published>2022-12-08T08:01:46.000Z</published>
+    <updated>2022-12-08T15:14:56.248Z</updated>
+    
+    <content type="html"><![CDATA[<p>搜索效果由上到下依次递减：</p><table><thead><tr><th>名称</th><th>网址</th></tr></thead><tbody><tr><td>猫狸盘搜</td><td><a href="https://www.alipansou.com/">https://www.alipansou.com/</a></td></tr><tr><td>咔帕搜索</td><td><a href="https://www.cuppaso.fun/">https://www.cuppaso.fun/</a></td></tr><tr><td>小纸条</td><td><a href="https://u.gitcafe.net/">https://u.gitcafe.net/</a></td></tr><tr><td>易搜</td><td><a href="https://yiso.fun/#">https://yiso.fun/#</a></td></tr></tbody></table><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;搜索效果由上到下依次递减：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;网址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;猫狸盘搜&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.alipanso</summary>
+      
+    
+    
+    
+    <category term="实用网站" scheme="http://example.com/categories/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="实用网站" scheme="http://example.com/tags/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在线英语句子语法分析|Enpuz—English Puzzle</title>
     <link href="http://example.com/2022/12/08/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/%E8%AF%AD%E6%B3%95%E6%A3%80%E6%B5%8B%E7%BD%91%E7%AB%99/"/>
     <id>http://example.com/2022/12/08/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/%E8%AF%AD%E6%B3%95%E6%A3%80%E6%B5%8B%E7%BD%91%E7%AB%99/</id>
     <published>2022-12-08T08:01:46.000Z</published>
-    <updated>2022-12-08T11:51:46.821Z</updated>
+    <updated>2022-12-08T15:11:30.558Z</updated>
     
     <content type="html"><![CDATA[<p>这是一款英语学习 AI 小工具，旨在让用户获得专业、效率、细致、发散的英语学习体验。</p><p>链接直达：<a href="http://enpuz.com/">http://enpuz.com/</a></p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
     
@@ -38,7 +72,7 @@
     <category term="实用网站" scheme="http://example.com/categories/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
     
     
-    <category term="语法分析" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    <category term="实用网站" scheme="http://example.com/tags/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
@@ -476,31 +510,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;Payday-lending发薪日贷款&quot;&gt;&lt;a href=&quot;#Payday-lending发薪日贷款&quot; class=&quot;headerlink&quot; title=&quot;Payday lending发薪日贷款 &quot;&gt;&lt;/a&gt;&lt;font color=red&gt;&lt;strong&gt;Payd</summary>
-      
-    
-    
-    
-    <category term="双语阅读" scheme="http://example.com/categories/%E5%8F%8C%E8%AF%AD%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="经济学人双语" scheme="http://example.com/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%8F%8C%E8%AF%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>经济学人双语-Europe Charlemagne A democratic nightmare</title>
-    <link href="http://example.com/2022/12/01/1%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%8F%8C%E8%AF%AD-Europe%20Charlemagne%20A%20democratic%20nightmare/"/>
-    <id>http://example.com/2022/12/01/1%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%8F%8C%E8%AF%AD-Europe%20Charlemagne%20A%20democratic%20nightmare/</id>
-    <published>2022-12-01T04:56:42.000Z</published>
-    <updated>2022-12-08T14:15:17.672Z</updated>
-    
-    <content type="html"><![CDATA[<p>PDF版本链接：<a href="https://www.feijix.com/s/7rNpyPZ">https://www.feijix.com/s/7rNpyPZ</a></p><h1 id="Europe-Charlemagne-A-democratic-nightmare"><a href="#Europe-Charlemagne-A-democratic-nightmare" class="headerlink" title="Europe Charlemagne A democratic nightmare "></a><font color=red><strong>Europe Charlemagne A democratic nightmare</strong> </font></h1><h1 id="欧洲-查理曼大帝-一个民主化的梦魇"><a href="#欧洲-查理曼大帝-一个民主化的梦魇" class="headerlink" title="欧洲 查理曼大帝 一个民主化的梦魇 "></a><font color=red><strong>欧洲 查理曼大帝 一个民主化的梦魇</strong> </font></h1><p><strong>Seeking to confront the rise of Eurosceptics and fill the democratic deficit</strong></p><p><strong>根治疑欧主义，弥补民主缺陷</strong></p> </br><p>TO ITS critics the European Union was born in sin: a project devised by and for the elites, lacking democratic legitimacy.许多评论家认为欧盟生而有罪：掌权者为掌权者设计的规划，缺少了民主合法性。</p> </br><p>All attempts to make good the “democratic deficit”, a term coined in the 1970s, have failed.“民主逆差” 一词是上世纪七十年代发明的一个术语，而如今所有想弥补民主逆差的尝试均以失败告终。</p> </br><p>Direct elections to the European Parliament (EP)? 欧盟议会（欧议）将直选？</p> </br><p>Turnout has fallen ever since they were instituted in 1979. 与会人数比 1979 年欧盟议会刚成立的时候还少。</p> </br><p>Give the assembly real power?是否应该给这些人实权？</p> </br><p><img src="/pic/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%8F%8C%E8%AF%AD/wps1.png"></p><p>The parliament has never had more clout, yet trust in the EU is at an all-time low.议会的影响力早已式微，而且欧盟的信任度已降至历史最低点。</p> </br><p>Europe’s economic crisis is making this chronic problem acute. 欧洲的经济危机让这个“慢性”的问题转为了“急性”。</p> </br><p>One reason is that, particularly in the euro zone,Brusselsis intruding ever deeper into national life, meddling in everything from budgets to pensions and wage-setting.原因有一，尤其是在欧元区，欧盟正在过多的入侵国民生活，从预算到养老金再到工资设定。</p> </br><p>Another reason is the expected backlash from voters in next May’s election to the EP.原因二就是明年五月欧盟议会大选中预期内的选民强烈反对。</p> </br><p>There will be big gains for anti-EU and anti-immigrant parties of all colours—from the sharp-tongued nativists of the UK Independence Party to the thuggish neo-Nazis of Golden Dawn in Greece.这对于各阵营的反欧盟和反移民组织来说都将收获颇丰，包括英国独立党内尖刻的本土主义者，以及希腊金色黎明党内蛮横的新纳粹分子。</p> </br><p>Eurosceptic parties could top the polls in France,Britainand the Netherlands; they will do well inFinland and Italy;在法国，英国和荷兰，疑欧政党可能位居民调榜首；在芬兰和意大利也会有不俗战绩；</p> </br><p>and in milder guise they could win seats for the first time in Germany. 保守估计，他们甚至都能首次在德国赢得席位。 </p></br><p>The sense of alarm is palpable. 这样的警钟可谓显而易见。</p> </br><p>Franois Hollande, the French president, says the rise of nationalists and Eurosceptics would bring “regression and paralysis”.法国总统奥朗德表示说，民族主义和疑欧主义的抬头会带来“倒退和瘫痪”。</p> </br><p>Enrico Letta,Italy’s prime minister, reckons Eurosceptics could winup to a third of the seats.</p><p>意大利前总理莱塔估计疑欧主义者将赢得高达三分之一的席位。 </br></p><p>Radicals and populists are a disparate bunch, preferring to give speeches than influence policy, so centrists should still be able to get parliamentary business done.激进派和民粹派也是各自心怀鬼胎，相对于影响政治他们还是更喜欢发表演说，所以中立派还有可能把议会的琐事处理完毕。</p> </br><p>Perhaps the bigger influence will be the poisoning of domestic politics, which would hamper decision-making by governments.而更深远的影响可能成为国内政治的毒瘤，而这颗毒瘤已牢牢束缚了政府决策。</p> </br><p>How to respond? 如何应对？</p> </br><p>Mr Letta is among those who want to galvanise pro-European forces by turning the European election into a contest for the next president of the European Commission.莱塔是想要用欧委会下一任主席一职的选举刺激拥欧力量的人之一。</p> </br><p>The main European political “families”, the broad coalitions of national parties that dominate parliament, say they will each campaign behind a “presidential” candidate.欧洲政治的主要方面就是“家庭”，主导议会的国家政党间的广泛联盟称， 他们将逐个参加主席的竞选。</p> </br><p>The Socialists seem likely to choose Martin Schulz, the feisty German president of the EP.</p><p>社会党似乎倾向舒兹，那个在欧盟议会中相当活跃的德国总统。</p> </br><p>The greens plan an open primary.绿党计划举行开放式选举。</p> </br><p>The conservatives, likely to remain the biggest grouping, still seem to be in a quandary.</p><p>保守党可能保留最大的分组，似乎还在左右为难。</p> </br><p>Advocates hope to inject excitement, strengthen the commission’s democratic mandate, focus the contest on European issues, and raise the stakes to avoid the ballot turning into a protest against unpopular national governments.支持者希望加强委员会的民主授权，把注意力放在欧洲问题上，为防止投票演变成一场针对不得人心的政府的抗议示威，他们提高了风险等级。</p> </br><p>Unless there is some blood-and-guts politics, they say, citizens will turn to populists.他们说，除非能出台一些动真格的政策，不然市民就会投靠民粹的阵营。<br> </br></p><p>And yet the EU is not a country, and the commission is not a government. 虽然欧盟不是一个国家，委员会也不是一个政府。</p> </br><p>It has the near-exclusive right to propose new legislation, to be approved by both the Council of Ministers (representing governments) and the EP.但却拥有近乎全部的权力来提出新法案，同时获得内阁（代表政府）和欧盟议会的同意。</p> </br><p>But it is also a civil service, policeman of the single market and competition watchdog.但这还是一个行政部门，单一市场的督察，以及一个竞争监管机构。</p> </br><p>In a new publication, the Centre for European Reform (CER), a British think-tank, argues that the commission “needs to act as referee in the political game, not as captain of one of the teams”.一份新发表的发言称，英国智库欧洲改革中心（欧改）认为，委员会“需要在政治游戏中充当裁判，而不是做某一方的指挥。”</p> </br><p>National leaders have always appointed the president and the 27 other commissioners, and will not want to be dictated to by the EP, which most regard as a nuisance.国家领导人总是任命主席和其余 27 个专员，而且不愿像傻瓜一样被欧盟议会任意摆布。</p> </br><p>The Lisbon treaty mischievously muddied the process: 里斯本条约反而把进程变得更加模棱两可：</p> </br><p>it says leaders should propose a president “taking into account” the election result;条约中声明，领导人应该建议总统“考虑到”大选的结果；然后参选人应由欧盟议会“选出“。</p> </br><p>then the candidate “shall be elected” by the EP. The dispute over who chooses, and controls, the commission president may cause more gridlock in Brussels than rowdy Eurosceptics ever could.委员会主席自己选中并控制的这场争议或将在欧盟引起更大的僵局，甚至大过那些惹是生非的疑欧主义者。</p> </br><p>A more partisan commission risks losing credibility in its semi-judicial functions such as ruling on state-aid cases (eg, bank bail-outs) and enforcing antitrust rules.一个更党派化的委员会将会冒失去信任的风险履行其半司法化功能，比如掌握国家援助的情况（例如银行救市方案）以及加强反垄断法。</p> </br><p>The commission has acquired greater powers to scrutinise national budgets and economic policies, and recommend sanctions.委员会获得更加强大的权力来审核国家预算案，经济政策以及推荐制裁。</p> </br><p>It is proposing to be the ultimate authority in winding up banks. 这将会是清算银行的最后一层管理机构。</p> </br><p>Do prime ministers and presidents want to hand loaded guns to an avowedly party-political commission president?首相和总统会荷枪实弹对准公开的党派政治化的委员会主席吗？</p> </br><p>The EU needs better commissioners, but an election of the president would narrow the field.欧盟议会需要更专业的专员，但主席的选举又会缩小这个范围。</p> </br><p>Sitting prime ministers would not risk their national jobs for a European contest;已经坐上首相位置的人不会为一个全欧洲的角逐拿自己工作冒险；</p> </br><p>the choice would come down to jobless politicos or Brussels insiders. 这个选择归结到失业的政客或欧盟内部人士头上。</p> </br><p>And voters are bound to be disappointed. 而选民们必然要失望了。</p> </br><p>The commission president does not decide issues they most care about.委员会主席不打算就选民们最关心的问题做出决断。</p> </br><p>Voting against austerity in the EP would not change the fact that creditors set the conditions for bail-outs.在欧盟议会内投票反对紧缩不会改变债权国为救市方案设定条件的事实。</p> </br><p>The unresolvable conundrum.无解的难题。</p> </br><p>The EU is a hybrid, part international organisation and part federation.</p><p>欧盟是一个混合的，不完全的国际化组织和不完全的联盟。</p> </br><p>There are no neat solutions to the democratic conundrum. 对于民主的难题没有干净利落的解决方案。</p> </br><p>A semi-elected president could offer the worst combination: 一个半当选总统会提供最糟糕的组合：</p> </br><p>too partisan to retain the trust of national leaders; 太党派化反而不能保持国际领导间的信任；</p> </br><p>too powerless to win the loyalty of citizens who may think they are electing the president of Europe but would get only a weak secretary-general.太过放权又不能赢得公民的忠诚，他们可能会认为他们所选的欧洲主席实际上只是个软弱的秘书长而已。</p> </br><p>A direct election makes sense should the commission ever be granted federal authority, including tax-raising powers.一次直选可能会让委员会成功被授予联邦的权力，包括增税的权力。</p> </br><p>Even so, it may need to give up some of its regulatory and technocratic functions.即使这样，这仍然需要放弃部分监管、技术的职能。</p> </br><p>For now treasuries remain strictly national. 因为现在国债被严格管控在本国内。</p> </br><p>Yet the problem of legitimacy is pressing. 但合法性问题仍然迫切。</p> </br><p>One response is for national parliaments to do a better job of holding ministers to account for decisions they make in Brussels.一种反应是各国议会应该督促部长们为他们在布鲁塞尔做的决定负责。 </p> </br><p>The CER proposes a  “ forum ”of national parliamentarians  to scrutinise EU actions where the EP has no say, for instance in devising bail-out packages.欧洲改革中心提出，当欧盟议会不同意时就举办一个“论坛”为各国议员审查欧盟措施，比如说设计纾困计划。</p> </br><p>European politicians can never trump national ones in terms of legitimacy and public interest.欧洲的政客从未在合法性和公共利益上战胜国家。</p> </br><p>So it is for national leaders to lead the fight against Eurosceptics: 所以这需要国家领导人带头与疑欧主义者对抗：</p> </br><p>stop blaming the EU for all ills, defend the benefits of integration, fix its flaws and, in the euro zone, explain the reforms needed to stay in the single currency.不再批评欧盟的弊病，为其一体化的益处而辩护，修复其缺陷，在欧元区内解释改革需要在单一货币体系内。</p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;PDF版本链接：&lt;a href=&quot;https://www.feijix.com/s/7rNpyPZ&quot;&gt;https://www.feijix.com/s/7rNpyPZ&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;Europe-Charlemagne-A-democratic-night</summary>
       
     
     
