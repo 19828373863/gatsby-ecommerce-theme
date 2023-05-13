@@ -322,34 +322,6 @@
   </entry>
   
   <entry>
-    <title>8.为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？</title>
-    <link href="http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/"/>
-    <id>http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/</id>
-    <published>2023-06-10T19:59:09.000Z</published>
-    <updated>2023-05-11T08:00:07.344Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？"><a href="#为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？" class="headerlink" title="为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？"></a>为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？</h1><p>在编制合并报表时，逆流交易需要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消。即：</p><pre><code>借：少数股东权益    贷：少数股东损益。</code></pre><p>很多同学不知道为什么要抵消和不抵消，但这一点对考试又非常重要，以至于学得云里雾里，要么不会用，张冠李戴，要么就不记得，直接忘写。</p><p>其实原理很简单，非常好理解，请看大白话。</p><p>一、为什么逆流交易要抵消少数股东权益和少数股东损益？</p><p>母子公司发生逆流交易，也就是子公司向母公司销售商品。</p><p>甲公司是乙公司的母公司，持有乙公司80%的股份。乙公司以1000万元向甲公司销售商品，商品成本为700万元，甲公司购进后作为存货核算。当年末，全部未实现对外销售。</p><p>母公司和子公司个别报表的会计分录为：</p><p><img src="/%E5%9B%BE%E7%89%87/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/1_Ph2ibzMRLu0sckETseUE5vudiasfTg.png"></p><p> 年末，甲公司编制合并报表时，抵权益和抵损益，会计分录为：  </p><p><img src="/%E5%9B%BE%E7%89%87/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/2_4k0CwwQm5Jx7iaZy9IicuJVT3PdeKg.png"></p><p>从合并报表的处理可以看出：</p><p>抵权益时，子公司的所有的所有者权益与大股东的长投和少数股东权益（可理解成小股东的长投）都是全部抵消完了的。</p><p>抵损益时，子公司年初未分配利润和当年的留存收益与大股东实现的投资收益和少数股东损益（小股东实现的投资收益）都是抵消完了的。</p><p>也就是说甲乙公司内部未实现的交易都被抵消干净了，然而乙公司卖给甲公司的商品，实现的1000-700&#x3D;300万元利润都属于未实现内部交易损益吗？</p><p>假如乙公司这一年就只有这一笔交易，对应的净利润就是300万元，全部分配给股东。母公司甲公司只能分得300<em>80%&#x3D;240，乙公司的其他股东（少数股东）还可以分得300</em>20%&#x3D;60万元。</p><p>也就是说，只有80%对应的部分是子公司与母公司的交易，另外20%部分相当于是少数股东卖给母公司的，这部分不属于内部交易。</p><p>这20%部分的利润60万元，对应的是少数股东当年实现的少股股东权益和少数股东损益，都在母公司编制合并报表抵权益“贷：少数股东权益”和抵损益“借：少数股东损益”时，全部被抵消掉了。</p><p>由于这部分不属于内部交易，不能抵消。所以，少数股东该有的这部分权益和损益在被抵消后，应该把抵消了的这20%做相反的分录退回来。</p><p>也就是说，把乙公司的未实现内部交易300万元全部抵消明显不合适，因为这300万元并不全是未实现的内部交易损益，其中有300*20%&#x3D;60万元相当于是集团外部的少数股东卖给甲公司的，这不属于内部交易。</p><p>所以，在全部抵消后，编制合并报表时需要把这60万做相反分录重新调整回来。调整分录为：</p><p>借：少数股东权益 60</p><p>贷：少数股东损益 60</p><p>概括起来，教材上就一句话：如果母子公司之间发生逆流交易，即子公司向母公司出售资产，则所发生的未实现内部交易损益，应当按照母公司对该子公司的分配比例在“归属于母公司所有者的净利润”和“少数股东损益”之间分配抵销。</p><p>二、为什么顺流交易不抵消少数股东权益和少数股东损益？</p><p>上面说的发生逆流交易需要抵消少数股东权益和少数股东损益，因为逆流交易中子公司确认营业收入和营业成本，也就是说子公司因内部交易实现了净利润，净利润体现在子公司的个别报表中，这部分净利润最终属于母公司和小股东，所以，不能把小股东的权益和损益给抵消了。</p><p>但是，发生顺流交易时，即母公司向子公司销售商品时，母公司在个别报表中确认营业收入和营业成本，内部交易实现的净利润体现在母公司的个别报表中，最终属于母公司的股东，这部分净利润永远不可能属于子公司的小股东。</p><p>所以，在母公司编制合并报表时，抵权益和抵损益后，不需要再调整，因为不涉及属于小股东的权益和损益。</p><p>推荐阅读：<a href="http://mp.weixin.qq.com/s?__biz=MzIwOTcxMTQ0Nw==&mid=2247484773&idx=1&sn=d7a345b1644ca6606fb2ffea1960732d&chksm=976efd5da019744bf66801a59c40ac57caa0a695cb2ea8371b78855e76fc725b79b7dd895300&scene=21#wechat_redirect">大白话重难点</a></p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？&quot;&gt;&lt;a href=&quot;#为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？&quot; class=&quot;headerlink&quot; title=&quot;为什么逆流交易要抵消少数股东权益和少数股东损</summary>
-      
-    
-    
-    
-    <category term="CPA" scheme="http://example.com/categories/CPA/"/>
-    
-    <category term="会计" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/"/>
-    
-    <category term="长期股权投资" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/"/>
-    
-    <category term="8.逆流交易" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/8-%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>9.处置长投时，权益法和成本法下的其他综合收益都需要转入投资收益吗？</title>
     <link href="http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/2021-08-02_%E5%A4%84%E7%BD%AE%E9%95%BF%E6%8A%95%E6%97%B6%EF%BC%8C%E6%9D%83%E7%9B%8A%E6%B3%95%E5%92%8C%E6%88%90%E6%9C%AC%E6%B3%95%E4%B8%8B%E7%9A%84%E5%85%B6%E4%BB%96%E7%BB%BC%E5%90%88%E6%94%B6%E7%9B%8A%E9%83%BD%E9%9C%80%E8%A6%81%E8%BD%AC%E5%85%A5%E6%8A%95%E8%B5%84%E6%94%B6%E7%9B%8A%E5%90%97%EF%BC%9F/"/>
     <id>http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/2021-08-02_%E5%A4%84%E7%BD%AE%E9%95%BF%E6%8A%95%E6%97%B6%EF%BC%8C%E6%9D%83%E7%9B%8A%E6%B3%95%E5%92%8C%E6%88%90%E6%9C%AC%E6%B3%95%E4%B8%8B%E7%9A%84%E5%85%B6%E4%BB%96%E7%BB%BC%E5%90%88%E6%94%B6%E7%9B%8A%E9%83%BD%E9%9C%80%E8%A6%81%E8%BD%AC%E5%85%A5%E6%8A%95%E8%B5%84%E6%94%B6%E7%9B%8A%E5%90%97%EF%BC%9F/</id>
@@ -373,6 +345,34 @@
     <category term="长期股权投资" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/"/>
     
     <category term="9.长期股权投资的处置" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/9-%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E7%9A%84%E5%A4%84%E7%BD%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>8.为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？</title>
+    <link href="http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/"/>
+    <id>http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/</id>
+    <published>2023-06-10T19:59:09.000Z</published>
+    <updated>2023-05-11T08:00:07.344Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？"><a href="#为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？" class="headerlink" title="为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？"></a>为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？</h1><p>在编制合并报表时，逆流交易需要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消。即：</p><pre><code>借：少数股东权益    贷：少数股东损益。</code></pre><p>很多同学不知道为什么要抵消和不抵消，但这一点对考试又非常重要，以至于学得云里雾里，要么不会用，张冠李戴，要么就不记得，直接忘写。</p><p>其实原理很简单，非常好理解，请看大白话。</p><p>一、为什么逆流交易要抵消少数股东权益和少数股东损益？</p><p>母子公司发生逆流交易，也就是子公司向母公司销售商品。</p><p>甲公司是乙公司的母公司，持有乙公司80%的股份。乙公司以1000万元向甲公司销售商品，商品成本为700万元，甲公司购进后作为存货核算。当年末，全部未实现对外销售。</p><p>母公司和子公司个别报表的会计分录为：</p><p><img src="/%E5%9B%BE%E7%89%87/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/1_Ph2ibzMRLu0sckETseUE5vudiasfTg.png"></p><p> 年末，甲公司编制合并报表时，抵权益和抵损益，会计分录为：  </p><p><img src="/%E5%9B%BE%E7%89%87/2021-07-12_%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93%E8%A6%81%E6%8A%B5%E6%B6%88%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A%E5%92%8C%E5%B0%91%E6%95%B0%E8%82%A1%E4%B8%9C%E6%8D%9F%E7%9B%8A%EF%BC%8C%E8%80%8C%E9%A1%BA%E6%B5%81%E4%BA%A4%E6%98%93%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8A%B5%E6%B6%88%EF%BC%9F/2_4k0CwwQm5Jx7iaZy9IicuJVT3PdeKg.png"></p><p>从合并报表的处理可以看出：</p><p>抵权益时，子公司的所有的所有者权益与大股东的长投和少数股东权益（可理解成小股东的长投）都是全部抵消完了的。</p><p>抵损益时，子公司年初未分配利润和当年的留存收益与大股东实现的投资收益和少数股东损益（小股东实现的投资收益）都是抵消完了的。</p><p>也就是说甲乙公司内部未实现的交易都被抵消干净了，然而乙公司卖给甲公司的商品，实现的1000-700&#x3D;300万元利润都属于未实现内部交易损益吗？</p><p>假如乙公司这一年就只有这一笔交易，对应的净利润就是300万元，全部分配给股东。母公司甲公司只能分得300<em>80%&#x3D;240，乙公司的其他股东（少数股东）还可以分得300</em>20%&#x3D;60万元。</p><p>也就是说，只有80%对应的部分是子公司与母公司的交易，另外20%部分相当于是少数股东卖给母公司的，这部分不属于内部交易。</p><p>这20%部分的利润60万元，对应的是少数股东当年实现的少股股东权益和少数股东损益，都在母公司编制合并报表抵权益“贷：少数股东权益”和抵损益“借：少数股东损益”时，全部被抵消掉了。</p><p>由于这部分不属于内部交易，不能抵消。所以，少数股东该有的这部分权益和损益在被抵消后，应该把抵消了的这20%做相反的分录退回来。</p><p>也就是说，把乙公司的未实现内部交易300万元全部抵消明显不合适，因为这300万元并不全是未实现的内部交易损益，其中有300*20%&#x3D;60万元相当于是集团外部的少数股东卖给甲公司的，这不属于内部交易。</p><p>所以，在全部抵消后，编制合并报表时需要把这60万做相反分录重新调整回来。调整分录为：</p><p>借：少数股东权益 60</p><p>贷：少数股东损益 60</p><p>概括起来，教材上就一句话：如果母子公司之间发生逆流交易，即子公司向母公司出售资产，则所发生的未实现内部交易损益，应当按照母公司对该子公司的分配比例在“归属于母公司所有者的净利润”和“少数股东损益”之间分配抵销。</p><p>二、为什么顺流交易不抵消少数股东权益和少数股东损益？</p><p>上面说的发生逆流交易需要抵消少数股东权益和少数股东损益，因为逆流交易中子公司确认营业收入和营业成本，也就是说子公司因内部交易实现了净利润，净利润体现在子公司的个别报表中，这部分净利润最终属于母公司和小股东，所以，不能把小股东的权益和损益给抵消了。</p><p>但是，发生顺流交易时，即母公司向子公司销售商品时，母公司在个别报表中确认营业收入和营业成本，内部交易实现的净利润体现在母公司的个别报表中，最终属于母公司的股东，这部分净利润永远不可能属于子公司的小股东。</p><p>所以，在母公司编制合并报表时，抵权益和抵损益后，不需要再调整，因为不涉及属于小股东的权益和损益。</p><p>推荐阅读：<a href="http://mp.weixin.qq.com/s?__biz=MzIwOTcxMTQ0Nw==&mid=2247484773&idx=1&sn=d7a345b1644ca6606fb2ffea1960732d&chksm=976efd5da019744bf66801a59c40ac57caa0a695cb2ea8371b78855e76fc725b79b7dd895300&scene=21#wechat_redirect">大白话重难点</a></p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？&quot;&gt;&lt;a href=&quot;#为什么逆流交易要抵消少数股东权益和少数股东损益，而顺流交易不需要抵消？&quot; class=&quot;headerlink&quot; title=&quot;为什么逆流交易要抵消少数股东权益和少数股东损</summary>
+      
+    
+    
+    
+    <category term="CPA" scheme="http://example.com/categories/CPA/"/>
+    
+    <category term="会计" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/"/>
+    
+    <category term="长期股权投资" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="8.逆流交易" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84/8-%E9%80%86%E6%B5%81%E4%BA%A4%E6%98%93/"/>
     
     
   </entry>
@@ -489,34 +489,6 @@
   </entry>
   
   <entry>
-    <title>租赁-担保余值和未担保余值</title>
-    <link href="http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81_finished/2021-07-19_%E4%BB%80%E4%B9%88%E6%98%AF%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%EF%BC%9F/"/>
-    <id>http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81_finished/2021-07-19_%E4%BB%80%E4%B9%88%E6%98%AF%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%EF%BC%9F/</id>
-    <published>2023-06-10T19:59:07.000Z</published>
-    <updated>2023-05-08T02:38:53.854Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="担保余值和未担保余值"><a href="#担保余值和未担保余值" class="headerlink" title="担保余值和未担保余值"></a>担保余值和未担保余值</h1><p>在新租赁准则下的，经常遇到担保余值和未担保余值这两个词，很多人学习时分不清，计算时不会算，其实非常简单。我用大白话解释一下。</p><p>首先说说什么是余值。</p><p><strong>余值</strong>，顾名思义就是资产的剩余价值。一般情况下，租赁结束后，出租人都会收回出租的资产，这时资产仍然具有一定价值，即使租赁期限很长，也有一定的残值。收回资产的这个剩余价值就是余值。</p><p>为了防止承租人在租赁期间滥用、过渡使用租用的资产，保护出租人的权益，出租人往往会要求对租赁结束时资产的剩余价值进行担保，相当于买个保险，保证租赁结束时资产的价值还值多少钱。</p><p>这个担保可以由承租人或与承租人有关的人提供，也可以由独立第三方（比如担保公司）提供，也可以由出租人或与出租人有关的人提供。</p><p>如果是由出租人或与出租人有关的一方自己提供担保，对出租人而言，就是自己给自己担保，等于没有担保。</p><p>租赁资产的余值中，由与出租人无关的人提供担保的金额，就叫担保余值。意思就是无论资产最后值多少钱，这个保证金额是可以收回来的。</p><p>由与出租人有关的人提供担保，或者没有人担保的金额，就叫未担保余值。意思就是最后资产能值多少钱就做多少钱，没人为这部分买单。</p><p>以上都比较好理解，关键是如何运用。</p><p>承租人或第三方提供了担保金额，在租赁结束时就一定要支付这么多钱吗？</p><p>不一定。担保金额是只是承租人或第三方最多需要支付的金额，也就是最大的风险，有可能一分钱都不会支付。</p><p>只有在资产值不了担保金额那么多钱时，才会把差额补齐，否则一分钱都不用支付。</p><p>例如：</p><p>租赁结束时，资产的剩余价值是50万元，承租人的担保余额是20万元，第三方担保公司担保15万元。</p><p>对出租人而言，这项资产的担保余值就是20+15&#x3D;35万元，未担保余值就是50-35&#x3D;15万元。</p><p>对承租人而言，如果预计租赁结束时资产的公允价值是20万元或高于20万元，没有低于承租人的担保余值，承租人在计算租赁付款额时，在担保余值这一项只需预计支付0元；如果预计公允价值是10万元，承租人只需预计支付10元；如果预计公允价值是0元，承租人只需预计支付20元。</p><p>也就是说，在确认租赁付款额时，承租人在担保余值项下最多预计支付20万元，最少0元。</p><p>随便回忆下承租人的租赁付款额和出租人的租赁收款额的计算方式：（截自我的《大白话租赁》）</p><p><img src="/%E5%9B%BE%E7%89%87/2021-07-19_%E4%BB%80%E4%B9%88%E6%98%AF%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%EF%BC%9F/1_2d6dC0biau55iaKvgoY8KMOcEtd3Rg.png"></p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;担保余值和未担保余值&quot;&gt;&lt;a href=&quot;#担保余值和未担保余值&quot; class=&quot;headerlink&quot; title=&quot;担保余值和未担保余值&quot;&gt;&lt;/a&gt;担保余值和未担保余值&lt;/h1&gt;&lt;p&gt;在新租赁准则下的，经常遇到担保余值和未担保余值这两个词，很多人学习时分不清，</summary>
-      
-    
-    
-    
-    <category term="CPA" scheme="http://example.com/categories/CPA/"/>
-    
-    <category term="会计" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/"/>
-    
-    <category term="租赁" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81/"/>
-    
-    <category term="担保余值和未担保余值" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81/%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>租赁-长期待摊费用</title>
     <link href="http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81_finished/2021-08-05_%E4%BB%80%E4%B9%88%E6%98%AF%E9%95%BF%E6%9C%9F%E5%BE%85%E6%91%8A%E8%B4%B9%E7%94%A8%EF%BC%9F%EF%BC%88%E4%BC%9A%E8%AE%A1%E5%92%8C%E7%A8%8E%E6%B3%95%E5%BF%85%E7%9C%8B%EF%BC%89/"/>
     <id>http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81_finished/2021-08-05_%E4%BB%80%E4%B9%88%E6%98%AF%E9%95%BF%E6%9C%9F%E5%BE%85%E6%91%8A%E8%B4%B9%E7%94%A8%EF%BC%9F%EF%BC%88%E4%BC%9A%E8%AE%A1%E5%92%8C%E7%A8%8E%E6%B3%95%E5%BF%85%E7%9C%8B%EF%BC%89/</id>
@@ -541,6 +513,34 @@
     <category term="租赁" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81/"/>
     
     <category term="长期待摊费用" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81/%E9%95%BF%E6%9C%9F%E5%BE%85%E6%91%8A%E8%B4%B9%E7%94%A8/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>租赁-担保余值和未担保余值</title>
+    <link href="http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81_finished/2021-07-19_%E4%BB%80%E4%B9%88%E6%98%AF%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%EF%BC%9F/"/>
+    <id>http://example.com/2023/06/11/Cpa/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81_finished/2021-07-19_%E4%BB%80%E4%B9%88%E6%98%AF%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%EF%BC%9F/</id>
+    <published>2023-06-10T19:59:07.000Z</published>
+    <updated>2023-05-08T02:38:53.854Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="担保余值和未担保余值"><a href="#担保余值和未担保余值" class="headerlink" title="担保余值和未担保余值"></a>担保余值和未担保余值</h1><p>在新租赁准则下的，经常遇到担保余值和未担保余值这两个词，很多人学习时分不清，计算时不会算，其实非常简单。我用大白话解释一下。</p><p>首先说说什么是余值。</p><p><strong>余值</strong>，顾名思义就是资产的剩余价值。一般情况下，租赁结束后，出租人都会收回出租的资产，这时资产仍然具有一定价值，即使租赁期限很长，也有一定的残值。收回资产的这个剩余价值就是余值。</p><p>为了防止承租人在租赁期间滥用、过渡使用租用的资产，保护出租人的权益，出租人往往会要求对租赁结束时资产的剩余价值进行担保，相当于买个保险，保证租赁结束时资产的价值还值多少钱。</p><p>这个担保可以由承租人或与承租人有关的人提供，也可以由独立第三方（比如担保公司）提供，也可以由出租人或与出租人有关的人提供。</p><p>如果是由出租人或与出租人有关的一方自己提供担保，对出租人而言，就是自己给自己担保，等于没有担保。</p><p>租赁资产的余值中，由与出租人无关的人提供担保的金额，就叫担保余值。意思就是无论资产最后值多少钱，这个保证金额是可以收回来的。</p><p>由与出租人有关的人提供担保，或者没有人担保的金额，就叫未担保余值。意思就是最后资产能值多少钱就做多少钱，没人为这部分买单。</p><p>以上都比较好理解，关键是如何运用。</p><p>承租人或第三方提供了担保金额，在租赁结束时就一定要支付这么多钱吗？</p><p>不一定。担保金额是只是承租人或第三方最多需要支付的金额，也就是最大的风险，有可能一分钱都不会支付。</p><p>只有在资产值不了担保金额那么多钱时，才会把差额补齐，否则一分钱都不用支付。</p><p>例如：</p><p>租赁结束时，资产的剩余价值是50万元，承租人的担保余额是20万元，第三方担保公司担保15万元。</p><p>对出租人而言，这项资产的担保余值就是20+15&#x3D;35万元，未担保余值就是50-35&#x3D;15万元。</p><p>对承租人而言，如果预计租赁结束时资产的公允价值是20万元或高于20万元，没有低于承租人的担保余值，承租人在计算租赁付款额时，在担保余值这一项只需预计支付0元；如果预计公允价值是10万元，承租人只需预计支付10元；如果预计公允价值是0元，承租人只需预计支付20元。</p><p>也就是说，在确认租赁付款额时，承租人在担保余值项下最多预计支付20万元，最少0元。</p><p>随便回忆下承租人的租赁付款额和出租人的租赁收款额的计算方式：（截自我的《大白话租赁》）</p><p><img src="/%E5%9B%BE%E7%89%87/2021-07-19_%E4%BB%80%E4%B9%88%E6%98%AF%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%EF%BC%9F/1_2d6dC0biau55iaKvgoY8KMOcEtd3Rg.png"></p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;担保余值和未担保余值&quot;&gt;&lt;a href=&quot;#担保余值和未担保余值&quot; class=&quot;headerlink&quot; title=&quot;担保余值和未担保余值&quot;&gt;&lt;/a&gt;担保余值和未担保余值&lt;/h1&gt;&lt;p&gt;在新租赁准则下的，经常遇到担保余值和未担保余值这两个词，很多人学习时分不清，</summary>
+      
+    
+    
+    
+    <category term="CPA" scheme="http://example.com/categories/CPA/"/>
+    
+    <category term="会计" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/"/>
+    
+    <category term="租赁" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81/"/>
+    
+    <category term="担保余值和未担保余值" scheme="http://example.com/categories/CPA/%E4%BC%9A%E8%AE%A1/%E7%A7%9F%E8%B5%81/%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC%E5%92%8C%E6%9C%AA%E6%8B%85%E4%BF%9D%E4%BD%99%E5%80%BC/"/>
     
     
   </entry>
