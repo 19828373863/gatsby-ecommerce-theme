@@ -1,3 +1,4 @@
+http://example.com/2023/05/13/python/wxpython/
 http://example.com/2023/05/13/hexo/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%8A%9F%E8%83%BD/
 http://example.com/2023/05/13/hexo/%E6%96%87%E4%BB%B6%E4%BD%93%E7%A7%AF%E7%BC%A9%E5%B0%8F/
 http://example.com/2023/05/13/hexo/%E6%9B%B4%E6%8D%A2%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F%E6%BA%90/
