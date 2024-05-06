@@ -1,0 +1,435 @@
+<!DOCTYPE html><html class="hide-aside" lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>信贷资产质量分析 | 民工的小院</title><meta name="author" content="民工"><meta name="copyright" content="民工"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="[TOC] 风控业务背景 信贷风险管理是一门艺术，更是一门科学。资产质量分析中常会涉及到三个理论：  账龄分析（Vintage Analysis）：用以分析账户成熟期、变化规律等。 滚动率分析（Roll Rate Analysis）：用以定义账户好坏程度。 迁移率分析（Flow Rate Analysis）：用以分析不同逾期状态之间的转化率。  本文吸收了一些前人的优秀成果，力求系统介绍这三者的概">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信贷资产质量分析">
+<meta property="og:url" content="https://fiw.world/1ba9b494/index.html">
+<meta property="og:site_name" content="民工的小院">
+<meta property="og:description" content="[TOC] 风控业务背景 信贷风险管理是一门艺术，更是一门科学。资产质量分析中常会涉及到三个理论：  账龄分析（Vintage Analysis）：用以分析账户成熟期、变化规律等。 滚动率分析（Roll Rate Analysis）：用以定义账户好坏程度。 迁移率分析（Flow Rate Analysis）：用以分析不同逾期状态之间的转化率。  本文吸收了一些前人的优秀成果，力求系统介绍这三者的概">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2024-04-08T08:26:11.449Z">
+<meta property="article:modified_time" content="2024-04-28T12:46:08.021Z">
+<meta property="article:author" content="民工">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><link rel="shortcut icon" href="/cover/%E5%8D%A1%E9%80%9A/7.jpg"><link rel="canonical" href="https://fiw.world/1ba9b494/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '信贷资产质量分析',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-04-28 20:46:08'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="民工的小院" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/%E5%8D%A1%E9%80%9A/7.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">753</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">262</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="民工的小院"><span class="site-name">民工的小院</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">信贷资产质量分析</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-04-08T08:26:11.449Z" title="Created 2024-04-08 16:26:11">2024-04-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-04-28T12:46:08.021Z" title="Updated 2024-04-28 20:46:08">2024-04-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E4%BD%9C/">工作</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E4%BD%9C/%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8/">资产证券</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">5.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>16mins</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>[TOC]</p>
+<h2 id="风控业务背景"><strong>风控业务背景</strong></h2>
+<p>信贷风险管理是一门艺术，更是一门科学。资产质量分析中常会涉及到三个理论：</p>
+<ul>
+<li>账龄分析（Vintage Analysis）：用以分析账户成熟期、变化规律等。</li>
+<li>滚动率分析（Roll Rate Analysis）：用以定义账户好坏程度。</li>
+<li>迁移率分析（Flow Rate Analysis）：用以分析不同逾期状态之间的转化率。</li>
+</ul>
+<p>本文吸收了一些前人的优秀成果，力求系统介绍这三者的概念、计算逻辑和业务应用，希望能对大家有所帮助。</p>
+<blockquote>
+<p><strong>目录</strong><br>
+Part 1. 基础风控指标概念<br>
+Part 2. Vintage Analysis<br>
+Part 3. Roll Rate Analysis<br>
+Part 4. 如何确定目标变量Y<br>
+Part 5. Flow Rate Analysis<br>
+Part 6. 坏账准备金的计算<br>
+Part 7. 总结<br>
+致谢<br>
+版权声明<br>
+参考资料</p>
+</blockquote>
+<h2 id="Part-1-基础风控指标概念"><strong>Part 1.</strong> 基础风控指标概念</h2>
+<p>为了更容易理解后续内容，我们先介绍一些基础的风控指标概念。</p>
+<p><strong>定义一：账龄(Month on Book，MOB)</strong></p>
+<p>指<strong>资产放款月份</strong>。类似于婴孩一出生就有了年龄，一旦申贷订单被放款，也便拥有了账龄和生命周期。</p>
+<ul>
+<li>MOB0：放款日至当月月底</li>
+<li>MOB1：放款后第二个完整的月份</li>
+<li>MOB2：放款后第三个完整的月份</li>
+</ul>
+<p><strong>MOB的最大值取决于信贷产品期限</strong>。如果是12期产品，那么该资产的生命周期是12期，MOB最大到MOB12。</p>
+<p>例如，2019年11月13日放款的订单，2019年11月是MOB0，2019年12月是MOB1，以此类推。</p>
+<p><strong>定义二：逾期天数(Days Past Due，DPD)</strong></p>
+<p><strong>逾期天数 = 实际还款日 - 应还款日。</strong></p>
+<p>DPDN+表示逾期天数 &gt;= N天，如DPD30+表逾期天数 &gt;=30天的资产</p>
+<p>例如，若还款日是每月8号，那么9号就是逾期第一天。如果客户在10号还款，那么逾期2天。</p>
+<p><strong>定义三：逾期期数(M)</strong></p>
+<p>指<strong>实际还款日与应还款日之间的逾期天数，并按区间划分后的逾期状态</strong>。M取自Month on Book的第一个单词。（注：不同机构所定义的区间划分可能存在差异）</p>
+<ul>
+<li>M0：当前未逾期（或用C表示，取自Current）</li>
+<li>M1： 逾期1-30日</li>
+<li>M2：逾期31-60日</li>
+<li>M3：逾期61-90日</li>
+<li>M4：逾期91-120日</li>
+<li>M5：逾期121-150日</li>
+<li>M6：逾期151-180日</li>
+<li>M7：逾期180日以上。此时也被称为<strong>呆账（Bad Debts</strong>），会予以注销账户（write-off）</li>
+</ul>
+<h2 id="Part-2-Vintage-Analysis"><strong>Part 2. Vintage Analysis</strong></h2>
+<p>Vintage一词最初来源于葡萄酒业 。由于每年采摘的葡萄会受到日照、气温、降水等因素的影响，最终酿造的葡萄酒品质会存在差异。在窖藏一定年份后，葡萄酒的品质将趋于稳定，也就是品质成熟，这段年份数被称为<strong>成熟期</strong>（maturity）。</p>
+<p>简便起见，我们以酒精浓度作为衡量葡萄酒品质的标准，约定：浓度越高，品质越好。首先，记录入窖年份作为该批次葡萄酒的标签，这也被称为Vintage或者Cohort。之后，我们将每年定期抽样测量酒精浓度，保存记录数据，如图1所示。</p>
+<p>经过几年的数据积累，我们就可以绘制出酒精浓度随时间变化的Vintage曲线。俗话说，酒越酿越醇，Vintage曲线通常是<strong>单调递增</strong>的，如图1所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-e1cc642bed82355e8dcc2b6213d53b63_r.jpg" alt="img"></p>
+<p>我们可以利用Vintage曲线做什么呢？如图2所示，主要用途包括：</p>
+<ol>
+<li><strong>分析变化规律</strong>：评估不同年份的葡萄酒的品质随着窖藏时间推移的变化规律。某些年份的葡萄酒浓度在入窖第1年就能达到较高的水平，但上升缓慢；有些起点低，但上升快 。</li>
+<li><strong>确定最终品质</strong>：Vintage曲线最终稳定值，表明了这批葡萄酒的最终酒精浓度 。</li>
+<li><strong>确定成熟期</strong>：由图1可知，在入窖第6年后，酒精浓度稳定不变，可以确定成熟期是6年，我们最早在第6年就可以开桶品尝 。</li>
+<li><strong>分析影响因素</strong>：根据Vintage曲线特征，我们可以分析某个年份的葡萄所受到的环境影响因素，从而改善生产工艺。比如，由于某一年的光照不充分，糖分积累少，酒精浓度可能最终就比较低。我们就可以人工增加光照强度 。</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic3.zhimg.com/v2-3eaea9fdb10c56e75af3092443d282e2_r.jpg" alt="img"></p>
+<p>在信贷领域中，我们也可以用Vintage曲线分析资产（portfolio）质量的成熟过程变化规律。为更容易理解，在此列举了Vintage分析过程中两个领域的对应关系，如图3所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic3.zhimg.com/v2-d3122480c21d2dc369c3ccd584cb28ea_r.jpg" alt="img"></p>
+<p>遵循同样的分析思路，按账龄（MOB）长短对齐后比较，我们可以了解同一产品不同时期放款的资产质量。</p>
+<ol>
+<li><strong>确定资产质量</strong>：一般以逾期率来定义资产质量，也就是曲线平缓后对应的逾期率。</li>
+<li><strong>分析变化规律</strong>：资产质量（例如逾期率指标）的变化情况，<u>如果前几期逾期率上升很快，那么说明<strong>短期风险</strong>没有捕捉住，<strong>欺诈风险较高</strong>；反之，如果曲线一直在上升，说明信用<strong>风险识别能力</strong>不佳。</u></li>
+<li><strong>确定账户成熟期</strong>：用来判断客户展现好坏的时间因素，从而帮助定义表现期。</li>
+<li><strong>分析影响因素</strong>：风控策略收紧或放松、客群变化、市场环境、政策法规等都会影响资产质量。分析影响因素，可以用来指导风控策略的调整。</li>
+</ol>
+<p>求知的你肯定会疑惑，如果以逾期率来定义资产质量，那么逾期风险（目标变量Y）-是如何定义的？如何确定M3，还是M6？ 稍安勿躁，后续将会结合滚动率分析来揭晓谜底。</p>
+<p>首先，我们来分析为什么要确定账户的表现期？在《<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/85440355">风控特征—时间滑窗统计特征体系</a>》一文中，我们提到过：</p>
+<blockquote>
+<p>表现期越长，信用风险暴露将越彻底，但意味着观察期离当前越远，用以提取样本特征的历史数据将越陈旧，建模样本和未来样本的差异也越大。反之，表现期越短，风险还未暴露完全，但好处是能用到更近的样本。</p>
+</blockquote>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic2.zhimg.com/v2-580183ad4263962fc98d3f302a7ddb65_r.jpg" alt="img"></p>
+<p>例如，对于一个12期分期还款的信贷产品，理论上当用户在12期结束，并还清所有的钱后，我们才能定义为绝对的好客户；反之，我们只能说到目前为止是一个好客户，但并不能知道未来几期用户会不会逾期不还钱。</p>
+<p>因此，我们需要确定一个合适的表现期能覆盖足够多的坏客户即可。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic3.zhimg.com/v2-855513c1db679f5602e7a189fb9f6b0a_r.jpg" alt="img"></p>
+<p>根据图5的信贷产品Vintage曲线，我们可以得到哪些信息呢？</p>
+<ol>
+<li>账龄最长为12个月，代表<strong>产品期限为12期</strong>。随着12期结束，账户的生命周期走到尽头。</li>
+<li>账龄MOB1、MOB2、MOB3的逾期率都为0，说明<strong>逾期指标为M4+（逾期超过90天）风险。</strong></li>
+<li>由放贷月份从2018年1月～12月的账户的最终逾期率都在降低，说明<strong>资产质量在不断提升</strong>，可能是因为风控水平在不断提升。</li>
+<li>2018年5月相对于2018年1～4月的逾期率大幅度下降，说明该阶段风控策略提升明显。</li>
+<li>不同月份放款的M4+在经过9个MOB后开始趋于稳定，说明<strong>账户成熟期是9个月</strong>。</li>
+</ol>
+<p>绘制Vintage曲线时，就不得不提到纵坐标中逾期率的定义。通常有两种计算口径：</p>
+<ul>
+<li>第一种，订单口径，逾期率 = 逾期订单数 / 总放贷订单数</li>
+<li>第二种，金额口径，逾期率 = 逾期剩余本金 / 总放贷本金</li>
+</ul>
+<p>目前互联网金融各家机构的<strong>口径定义存在差异</strong>，因此仅仅根据各家发布的Vintage曲线，有时并不能客观分析资产质量和风控水平。</p>
+<p>计算逻辑详见：《<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/163206686">求是汪在路上：Vintage分析表计算过程详解</a>》</p>
+<h2 id="Part-3-Roll-Rate-Analysis"><strong>Part 3. Roll Rate Analysis</strong></h2>
+<p>滚动率分析就是从某个观察点之前的一段时间**（观察期）<strong>的</strong>最坏<strong>的状态，向观察点之后的一段时间</strong>（表现期）<strong>的</strong>最坏的**状态的发展变化情况，如图6所示。</p>
+<p>⚠️注意：一般大家也习惯把vintage中的成熟期叫做表现期，因此出现一定的混淆。但意思是都是未来的一段时间窗。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-2b205377904876fbfcecf9955d9082ff_r.jpg" alt="img"></p>
+<p>滚动率分析的具体操作步骤为：</p>
+<ul>
+<li><strong>step 1.</strong> 确定数据源。一般利用客户还款计划表（repayment schedule）。</li>
+<li><strong>step 2.</strong> 选择观察点，以观察点为截止时间，统计客户在观察期（如过去6个月）的最长逾期期数，按最坏逾期状态将用户分为几个层次，如C、M1、M2、M3、M4+。</li>
+<li><strong>step 3.</strong> 以观察点为起始时间，统计客户在表现期（如未来6个月）的最长逾期期数，按最坏逾期状态将用户分为几个层次，如C、M1、M2、M3、M4+。</li>
+<li><strong>step 4.</strong> 交叉统计每个格子里的客户数，如图6中表1所示。</li>
+<li><strong>step 5.</strong> 统计每个格子里的客户占比，如图6中表2所示。</li>
+<li><strong>step 6.</strong> 为了排除观察点选择时的随机影响，一般会选择多个观察点。重复step1 ～5。</li>
+</ul>
+<p>例如，选择观察点为2018年6月30日，我们取10,000个客户作为研究对象，统计该10,000个客户从观察期到表现期的最大逾期状态的变化情况，如图7所示。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic3.zhimg.com/v2-8d803d7933d4a145dd2777a2a4135b12_r.jpg" alt="img"></p>
+<p>观察图7，我们可以发现以下规律：</p>
+<ol>
+<li>逾期状态为M0的客户，在未来6个月里，有96%会继续保持正常状态，4%会恶化为M1和M2；</li>
+<li>逾期状态为M1的客户，未来有81%会回到正常状态，即从良率为81%，有7%会恶化，13%会保持M1状态；</li>
+<li>逾期状态为M2的客户，从良率为23%，有39%会恶化为M3和M4+；</li>
+<li>逾期状态为M3的客户，从良率为14.7%，有60.7%会恶化为M4+；</li>
+<li>逾期状态为M4+的客户，从良率仅为4%，有80%会继续保持此状态。</li>
+</ol>
+<p>因此，我们认为历史逾期状态为M4+的客户已经坏透了，几乎不会从良。为了让风控模型有更好的区分能力，需要将客户好坏界限尽可能清晰，可以定义：</p>
+<blockquote>
+<p>坏用户（bad）= 逾期状态为M4+（逾期超过90天）</p>
+</blockquote>
+<h2 id="Part-4-如何确定目标变量Y"><strong>Part 4. 如何确定目标变量Y</strong></h2>
+<p>在风控建模中，由于是有监督学习，我们非常关心如何定义合适的目标变量Y？这就需要结合滚动率分析和Vintage分析，两者的分工在于：</p>
+<ul>
+<li>滚动率分析用于定义客户的<strong>好坏程度</strong>。</li>
+<li>Vintage分析用于确定合适的<strong>表现期</strong>。</li>
+</ul>
+<p>定义目标变量Y的具体操作步骤为：</p>
+<ul>
+<li><strong>step 1.</strong> 利用滚动率分析定义坏客户，例如上文案例中定义：<strong>M4+为坏客户</strong>。</li>
+<li><strong>step 2.</strong> 以M4+作为资产质量指标，统计Vintage数据表，绘制Vintage曲线。目的是<strong>分析账户成熟期</strong>，例如上文案例确定：<strong>账户成熟期是9个月。</strong></li>
+</ul>
+<p>你可能还是会比较疑惑，为什么还需要通过Vintage分析来确定表现期？</p>
+<p>这是因为：虽然滚动率分析确定了M4+作为坏的程度，但是对于12期的产品，有些账户是在前4期MOB（也就是MOB1 ~ MOB4，经过4个表现期）就达到M4+，有些是在后几期才达到M4+。</p>
+<p>对于这个Vintage里所有的账户，我们的目的是抓住尽可能多的坏客户。</p>
+<p>现在进一步补充Vintage曲线的绘制过程：如图8所示，对于这10,000个账户，以MOB1为起点，把前N个MOB作为一个窗口，滑窗统计坏客户率，得到图5-表1中的Vintage数据，并绘制Vintage曲线。我们可以发现：经过9期，我们几乎能够抓住所有的坏客户。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-8c0014d8126afefda8100c9e324ecd77_r.jpg" alt="img"></p>
+<p>因此，我们将两者结合起来，定义：</p>
+<ul>
+<li>Bad = 账户经过9期表现期后，逾期状态为M4+（逾期超过90天）。此时 �=1 。</li>
+<li>Good = 经过9期表现期，但未达到M4+逾期状态。此时 �=0 。</li>
+<li>Intermediate = 未进入9期表现期，账户还未成熟，无法定义好坏，也就是不定样本。</li>
+</ul>
+<h2 id="Part-5-Flow-Rate-Analysis"><strong>Part 5. Flow Rate Analysis</strong></h2>
+<p><strong>迁移率分析法</strong>（Flow Rate）也叫做<strong>净流量滚动比例法</strong>（Net Flow Rate），能形象展示客户贷款账户在整个生命周期中的变化轨迹，也是<strong>预测未来坏账损失</strong>的最常用的方法。</p>
+<p>其<strong>核心假设</strong>为：处于某一逾期状态（如M2）的账户，一个月后，要么从良为M0账户，要么恶化为更坏的下一个逾期状态（如M3）。</p>
+<blockquote>
+<p>迁移率 = 前一期逾期金额到下一期逾期金额的转化率</p>
+</blockquote>
+<p>一般缩写为M0-M1、M4-M5等形式，例如：</p>
+<ul>
+<li>M0-M1 = 当月进入M1的贷款余额 / 上月末M0的贷款余额</li>
+<li>M2-M3 = 当月进入M3的贷款余额 / 上月末M2的贷款余额</li>
+</ul>
+<p>迁移率分析的具体操作步骤为：</p>
+<ul>
+<li><strong>step 1.</strong> 定义逾期状态，如前文所述的M0、M1、M2等。</li>
+<li><strong>step 2.</strong> 计算各逾期状态之间的迁移率，如M0-M1、M2-M3等。</li>
+<li><strong>step 3.</strong> 计算不同月份（也可称为Vintage）的平均迁移率。目的是对本平台在不同时期的资产的迁移率有整体的认知。</li>
+<li><strong>step 4.</strong> 根据平均迁移率和不良资产回收率，计算净坏账损失率。</li>
+</ul>
+<p>接下来，我们以数值案例（非真实业务数据）展示上述过程。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-b5b4256a397202940da4bcef790aec87_r.jpg" alt="img"></p>
+<p>图9-表2中，2月份的逾期M1资产只能从1月份的正常M0资产滚动而来，因此从逾期M0资产向M1的转化率为 2373371007843=23.55% 。</p>
+<p>以此类推，我们可以计算所有月份的资产恶化率。黄色部分为不良资产的恶化迁移路径，其计算口径为：</p>
+<ul>
+<li>截止1月末，正常M0资产为 1007844 元，这是起点。</li>
+<li>截止2月末，1月末的正常M0资产中有 2373371007843=23.55% 恶化为逾期M1资产。</li>
+<li>截止3月末，2月末的逾期M1资产中有 55362237338=23.33% 恶化为逾期M2资产。</li>
+<li>截止4月末，3月末的逾期M2资产中有 2514455362=45.42% 恶化为逾期M3资产。</li>
+<li>截止5月末，4月末的逾期M4资产中有 20965525144=83.38% 恶化为逾期M5资产。此时已过催收黄金期（90天以内）。</li>
+<li>截止6月末，5月末的逾期M5资产中有 1035020965=49.37% 恶化为逾期M6资产。这可能采用了委外催收、司法手段等催收策略，效果显著。</li>
+<li>截止7月末，6月末的逾期M5资产中有 855910350=82.70% 恶化为逾期M7资产。此时将视为不良资产，打包转卖给第三方公司，这样就能回收部分不良资产，减少损失。</li>
+</ul>
+<p>通过迁移率，我们可以清晰观察到每个Vintage的资产在各逾期状态的演变规律。</p>
+<p>图9-表2中，我们从横向比较每个月的迁移率，发现不完全一样。这是因为随着时间推移、外在宏观经济环境、内部政策等变化而产生一定的波动。我们可以利用这些数据：</p>
+<ol>
+<li>观察迁移率的发展轨迹，监控坏账的发展倾向和催收效果。</li>
+<li>通过对多个月份的迁移率计算平均值，从而使迁移率更加稳定。</li>
+</ol>
+<h2 id="Part-6-坏账准备金的计算"><strong>Part 6. 坏账准备金的计算</strong></h2>
+<p>呆帐风险是信贷机构必须面对的风险，主要来源于信用风险和欺诈风险等。为了应对未来呆帐的可能，信贷机构一般都会设定一个储备资金，这就是**坏账准备金（Bad Debt Reserve）。**那么我们该如何计算坏账准备金？</p>
+<p>一般做法是，把未清偿贷款余额乘以一定的**准备金比例（Reserve Ratio）**所得。可以理解，资产逾期等级越高（越差），准备金比例也应该越高，因为恶化为呆帐的可能性也更高。如图10所示，正常M0资产恶化为呆帐的可能性最低，因此我们预留的准备金比例也就最少。</p>
+<p>我们总结下计算坏账准备金的步骤为：</p>
+<ul>
+<li><strong>step 1.</strong> 统计未清偿贷款金额的分布，也就是M0~M6状态分别对应的资产余额。</li>
+<li><strong>step 2.</strong> 为每个逾期状态的资产分配一个准备金比例。</li>
+<li><strong>step 3.</strong> 每个子项目的准备金金额 = 未清偿贷款余额 x 准备金比例。</li>
+<li><strong>step 4.</strong> 每个子项目的准备金金额相加，得到最终的准备金。</li>
+</ul>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic3.zhimg.com/v2-7f7c474479a20271db484361905e4d06_r.jpg" alt="img"></p>
+<p>你或许会问，这里最关键的准备金比例是如何给出的？</p>
+<p>由于坏账准备金是用来覆盖预期的未来呆帐损失的，<strong>准备金比例必须等于处于各个逾期状态的资产未来演变为呆帐的比例</strong>。</p>
+<p>回到迁移率分析中，我们发现从正常M0资产迁移至逾期M7资产（呆帐）需经过7次迁移，如图11所示。那么，我们只要把各个状态之间的转化率相乘，不就得到准备金比例了？</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic3.zhimg.com/v2-2bc3e7254690eb773faa4bc66ef5ea6e_r.jpg" alt="img"></p>
+<p>因此，我们定义<strong>正常M0资产对应的毛坏账损失率，<strong>也就是迁移到呆帐的转化率为</strong>：</strong></p>
+<blockquote>
+<p>毛坏账损失率 = (�0−�1)×(�1−�2)×…×(�6−�7)</p>
+</blockquote>
+<p>在本案例中，正常M0资产对应的毛坏账损失率为：</p>
+<p>(1)16.1%×29.28%×42.27%×80.1%×53.6%×80.32%×88.03%=0.60%</p>
+<p>在实际中，信贷机构会将不良资产打包转卖给第三方公司，这样就能回收部分不良资产，减少损失。因此，我们定义净坏账损失率为：</p>
+<blockquote>
+<p>净坏账损失率 = 毛坏账损失率 - 不良资产外卖回收率</p>
+</blockquote>
+<p>由于M7不良资产的平均回收率为 10.79% ，则可计算<strong>净坏账损失率</strong>为：</p>
+<p>(2)0.60%×(1−10.79%)=0.54%</p>
+<p>同理，我们可以计算正常资产到不同逾期状态资产的毛损失率和净损失率如下：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-35d0ebb91b81844a08674e690b317477_r.jpg" alt="img"></p>
+<p>根据图12所示的损失率表，我们定义：</p>
+<ul>
+<li>当月应计拨备额 = SUM(净坏账损失率 * 月末应收账款余额)</li>
+<li>拨备率 = 当月应计拨备额 / 总资产金额</li>
+</ul>
+<p>其中，拨备率是用来预防不良资产的发生而准备的金额的比例。拨备率应越低越好。拨备率越高说明风险越大，损失越大，利润越小。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-5cbf67b46a2bd9cfc0c10175b7aec153_r.jpg" alt="img"></p>
+<p>在本案例中，当月应计拨备额为65421元，如图13所示。拨备率为：654212625091=2.49%</p>
+<h2 id="Part-7-总结"><strong>Part 7. 总结</strong></h2>
+<p>本文所整理的主要知识点包括：</p>
+<ol>
+<li>Vintage、滚动率、迁移率的概念和区别。</li>
+<li>如何根据数据分析来确定风控建模中的好坏定义。</li>
+<li>拨备率的概念，以及如何根据迁移率来计算拨备率。</li>
+</ol>
+<h2 id="致谢"><strong>致谢</strong></h2>
+<p>感谢参考资料作者提供的数据和思路。本文是站在巨人肩膀上的学习笔记，尚有理解不当之处，欢迎指正。</p>
+<h2 id="版权声明"><strong>版权声明</strong></h2>
+<p><strong>欢迎转载分享</strong>，<strong>请在文章中注明作者和原文链接，感谢您对知识的尊重和对本文的肯定。</strong></p>
+<blockquote>
+<p>原文作者：求是汪在路上（知乎ID）<br>
+原文链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/81027037/">https://zhuanlan.zhihu.com/p/81027037/</a></p>
+</blockquote>
+<p>⚠️著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处，<strong>侵权转载将追究相关责任</strong>。</p>
+<h2 id="参考资料"><strong>参考资料</strong></h2>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/37907426/answer/176529234">Vintage 分析和迁移率模型子在金融行业如何应用？163 赞同 · 7 评论回答<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic1.zhimg.com/v2-f24fe6d4faa9974284abfe20931f3f2c_120x160.jpg" alt="img"></a></p>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/KefG_8krBBaFl0LCi2L2WA">Vintage、滚动率、迁移率的应用mp.weixin.qq.com/s/KefG_8krBBaFl0LCi2L2WA<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic2.zhimg.com/v2-be8f73484e6a57ef2a0ca693e083ebb9_180x120.jpg" alt="img"></a></p>
+<p><a target="_blank" rel="noopener" href="http://blog.sina.com.cn/s/blog_537ed51201019m3s.html">Vintage分析和迁移率模型在信用卡业务中的应用blog.sina.com.cn/s/blog_537ed51201019m3s.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/51583052/answer/145614017">互联网金融中需要关注的风控逾期指标有哪些？503 赞同 · 33 评论回答<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic1.zhimg.com/v2-cb140742f0b36db8f08ac0be6c7f8260_180x120.jpg" alt="img"></a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/22272714">雪小梨：逾期率「不能说」的秘密105 赞同 · 8 评论文章<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic1.zhimg.com/723a31bde819e41e84754583ef2eda3c_ipico.jpg" alt="img"></a></p>
+<p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%8B%A8%E5%A4%87%E7%8E%87/86906?fr=aladdin">拨备率_百度百科baike.baidu.com/item/%E6%8B%A8%E5%A4%87%E7%8E%87/86906?fr=aladdin<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic4.zhimg.com/v2-a64774de231eee7f3449f6649c9cdaef_180x120.jpg" alt="img"></a></p>
+<hr>
+<h2 id="关于作者："><strong>关于作者</strong>：</h2>
+<p>在某互联网金融公司从事风控建模、反欺诈、数据挖掘等方面工作，目前致力于将实践经验固化分享，量化成长轨迹。欢迎交流</p>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css"></article><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/59bc61b/" title="11.1我国资产证券化投资市场现状"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous</div><div class="prev_info">11.1我国资产证券化投资市场现状</div></div></a></div><div class="next-post pull-right"><a href="/202404290851/" title="27.3长期股权投资与所有者权益的合并处理（同一控制）"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next</div><div class="next_info">27.3长期股权投资与所有者权益的合并处理（同一控制）</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A3%8E%E6%8E%A7%E4%B8%9A%E5%8A%A1%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text">风控业务背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-1-%E5%9F%BA%E7%A1%80%E9%A3%8E%E6%8E%A7%E6%8C%87%E6%A0%87%E6%A6%82%E5%BF%B5"><span class="toc-number">2.</span> <span class="toc-text">Part 1. 基础风控指标概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-2-Vintage-Analysis"><span class="toc-number">3.</span> <span class="toc-text">Part 2. Vintage Analysis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-3-Roll-Rate-Analysis"><span class="toc-number">4.</span> <span class="toc-text">Part 3. Roll Rate Analysis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-4-%E5%A6%82%E4%BD%95%E7%A1%AE%E5%AE%9A%E7%9B%AE%E6%A0%87%E5%8F%98%E9%87%8FY"><span class="toc-number">5.</span> <span class="toc-text">Part 4. 如何确定目标变量Y</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-5-Flow-Rate-Analysis"><span class="toc-number">6.</span> <span class="toc-text">Part 5. Flow Rate Analysis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-6-%E5%9D%8F%E8%B4%A6%E5%87%86%E5%A4%87%E9%87%91%E7%9A%84%E8%AE%A1%E7%AE%97"><span class="toc-number">7.</span> <span class="toc-text">Part 6. 坏账准备金的计算</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-7-%E6%80%BB%E7%BB%93"><span class="toc-number">8.</span> <span class="toc-text">Part 7. 总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%B4%E8%B0%A2"><span class="toc-number">9.</span> <span class="toc-text">致谢</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E"><span class="toc-number">10.</span> <span class="toc-text">版权声明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-number">11.</span> <span class="toc-text">参考资料</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E4%BD%9C%E8%80%85%EF%BC%9A"><span class="toc-number">12.</span> <span class="toc-text">关于作者：</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/12e2bdcf/" title="30.政府及民间非盈利组织会计"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="30.政府及民间非盈利组织会计"/></a><div class="content"><a class="title" href="/12e2bdcf/" title="30.政府及民间非盈利组织会计">30.政府及民间非盈利组织会计</a><time datetime="2024-05-06T01:51:49.000Z" title="Created 2024-05-06 09:51:49">2024-05-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/e30f2525/" title="29.公允价值"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="29.公允价值"/></a><div class="content"><a class="title" href="/e30f2525/" title="29.公允价值">29.公允价值</a><time datetime="2024-05-06T01:40:26.000Z" title="Created 2024-05-06 09:40:26">2024-05-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2e1d5a27/" title="28.每股收益"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="28.每股收益"/></a><div class="content"><a class="title" href="/2e1d5a27/" title="28.每股收益">28.每股收益</a><time datetime="2024-05-05T06:53:41.000Z" title="Created 2024-05-05 14:53:41">2024-05-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/f209983e/" title="流动性分析"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="流动性分析"/></a><div class="content"><a class="title" href="/f209983e/" title="流动性分析">流动性分析</a><time datetime="2024-04-30T08:31:25.104Z" title="Created 2024-04-30 16:31:25">2024-04-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/78755363/" title="债券发行与交易"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="债券发行与交易"/></a><div class="content"><a class="title" href="/78755363/" title="债券发行与交易">债券发行与交易</a><time datetime="2024-04-30T02:27:40.000Z" title="Created 2024-04-30 10:27:40">2024-04-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/92177cd5/" title="1.债市基本知识"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="1.债市基本知识"/></a><div class="content"><a class="title" href="/92177cd5/" title="1.债市基本知识">1.债市基本知识</a><time datetime="2024-04-29T08:28:26.000Z" title="Created 2024-04-29 16:28:26">2024-04-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/b4da0ecb/" title="5.2央行MPA考核体系_new"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="5.2央行MPA考核体系_new"/></a><div class="content"><a class="title" href="/b4da0ecb/" title="5.2央行MPA考核体系_new">5.2央行MPA考核体系_new</a><time datetime="2024-04-29T01:27:27.000Z" title="Created 2024-04-29 09:27:27">2024-04-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-04-28T02:08:45.665Z" title="Created 2024-04-28 10:08:45">2024-04-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/1d917983/" title="6.2.2长期股权投资的后续计量"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="6.2.2长期股权投资的后续计量"/></a><div class="content"><a class="title" href="/1d917983/" title="6.2.2长期股权投资的后续计量">6.2.2长期股权投资的后续计量</a><time datetime="2024-04-24T10:54:22.425Z" title="Created 2024-04-24 18:54:22">2024-04-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-04-21T02:27:43.914Z" title="Created 2024-04-21 10:27:43">2024-04-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/699e5fa9/" title="Risk, Cost of Capital, and Valuation"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Risk, Cost of Capital, and Valuation"/></a><div class="content"><a class="title" href="/699e5fa9/" title="Risk, Cost of Capital, and Valuation">Risk, Cost of Capital, and Valuation</a><time datetime="2024-04-20T12:50:46.191Z" title="Created 2024-04-20 20:50:46">2024-04-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-04-20T12:48:55.721Z" title="Created 2024-04-20 20:48:55">2024-04-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-04-20T08:20:33.017Z" title="Created 2024-04-20 16:20:33">2024-04-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-04-20T08:12:08.319Z" title="Created 2024-04-20 16:12:08">2024-04-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-04-20T06:57:01.693Z" title="Created 2024-04-20 14:57:01">2024-04-20</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 民工</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
