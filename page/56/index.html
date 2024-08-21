@@ -51,7 +51,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-07-03 12:18:19'
+  postUpdate: '2024-08-21 12:02:51'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -149,204 +149,312 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="民工的小院" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/%E5%8D%A1%E9%80%9A/7.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">846</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">271</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/cover/%E5%8D%A1%E9%80%9A/7.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="民工的小院"><span class="site-name">民工的小院</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">民工的小院</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/0/" title="Untitled"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"></a></div><div class="recent-post-info"><a class="article-title" href="/0/" title="Untitled">Untitled</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-11-02T11:52:12.594Z" title="Created 2023-11-02 19:52:12">2023-11-02</time></span></div><div class="content">
-创建型模式；对象实例化的模式，创建型模式用于解耦对象的实例化过程。
-结构型模式；把类或对象结合在一起形成一个更大的结构。
-行为型模式：类和对象如何交互，及划分责任和算法。
-Ep_UML类 图
-1.1统一建模语言 (Unified  Modeling   Language) 是用来设计软件的可视化建模语言。
-UML类图学习目标:能看懂类图中各个类之间的线条、箭头代表什么意思后，看后面章节的设计模式结构图和期末画UML图没有任何问题。
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/%E5%8D%A1%E9%80%9A/7.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">885</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">273</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/cover/%E5%8D%A1%E9%80%9A/7.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="民工的小院"><span class="site-name">民工的小院</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">民工的小院</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/b3644a01/" title="1.2法律关系"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="1.2法律关系"></a></div><div class="recent-post-info"><a class="article-title" href="/b3644a01/" title="1.2法律关系">1.2法律关系</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-18T09:26:40.493Z" title="Created 2023-12-18 17:26:40">2023-12-18</time></span></div><div class="content">法律关系
+法律关系的种类
+法律关系的基本概念
+法律关系是指根据法律规范产生的，以主体之间的权利与义务关系为内容表现的特殊的社会关系。
 
-属性/方法名称前加的 加号和减号表示了这个属性/方法的【可见性】
-1.2UML 类图中表示可见性的符号有三种：
-+:表示public
--:表示private
-#:表示protected
-属性的完整表示方式是：可见性名称：类型[=默认值]
-方法的完整表示方式是：可见性名称(参数列表)[: 返回类型]
-1 .3类与类之间关系的表示方式
+同学、恋人关系不是法律关系。夫妻关系有民法典的规定，是由法律规范产的，是法律关系。
+合同关系是由合同法规范的，是法律关系。
 
-实现、继承、聚合的使用最为频繁。
-
-1.3.1关联关系
-关联关系是对象之间的一种引用关系，用于表示一类对象与另一类对象之间的联系，如老师和学 生、师傅和徒弟、丈夫和妻子等。关联关系是类与类之间最常用的一种关系，分为一般关联关 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/0/" title="Untitled"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"></a></div><div class="recent-post-info"><a class="article-title" href="/0/" title="Untitled">Untitled</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-11-01T12:17:08.634Z" title="Created 2023-11-01 20:17:08">2023-11-01</time></span></div><div class="content">设计对象并使用
-类和对象
-●类(设计图) :是对象共同特征的描述;
-●对象:是真实存在的具体东西。在Java中，必须先设计类，才能获得对象。
-类的定义
-
-总结：
-
-●类名首字母建议大写， 需要见名知意，驼峰模式。
-●一个Java文件中可以定义多个class类, 且只能一 个类是public修饰，而且public修饰的类名必须成为代码文件名。实际开发中建议还是一个文件定义一个class类。
-●成员变量的完整定义格式是 :修饰符-数据类型-变量名称=初始化值;一般无需指定初始化值,存在默认值。
-封装
-https://www.bilibili.com/video/BV1dR4y1o7ER?t=135.3&amp;p=3
-
-封装、继承、多态是面向对象的三大特征。
-
-对象代表什么，就得封装对应的数据，并提供数据对应的行为。
-比如人画圆，对象应该是圆，而不是人。
-
-private关键字
-●是一个权限修饰符
-●可以修饰成员 (成员变量和成员方法)
-●被private修 饰的成员只能在本类中才能访问
-
-在设置age为私有成员后，直接调用age的值是不可行的。
-
-正确的案例如下：
-
-
-私有变量只能在其被 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/0/" title="Untitled"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"></a></div><div class="recent-post-info"><a class="article-title" href="/0/" title="Untitled">Untitled</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-25T13:27:31.196Z" title="Created 2023-10-25 21:27:31">2023-10-25</time></span></div><div class="content">数据库
-E-R图转换为关系模式
-E-R图中，有实体和联系两个概念，实体和实体之间的联系分为三种，即1:1,1:N,M:N，这三种情况，转换为关系模式的方法也不同。
-◆首先，每个实体都要转换为一个关系模式，对于联系:
-
-
-一对一，联系作为一个属性随便加入哪个实体中;
-
-
-一对多，联系可以单独转换为一个关系模式，也可以作为一个属性加入到N端中（N端实体包含1端的主键);
-
-
-多对多，联系必须单独转换为一个关系模式(且此关系模式应该包含两端实体的主键)。
-
-
-转换之后要注意:原来的两个实体之间的联系必须还存在，能够通过查询方式查到对方。
-解题技巧
-◆数据库设计的考法也非常固定，第一小题补充E-R图，第二小题补充关系模式，第三小题是简单的情景问答题。同样也都不难，结合题目描述和E-R图的一些特点可以轻易得出答案，技巧如下:
-1、补充E-R图:这是重中之重，E-R图如果弄错了，后续题目都有影响，主要是根据题目描述确认哪些实体之间有联系，联系类型是哪一种，而后进行连线即可，并不难。
-2、补充关系模式:实际考察的是将E-R图转换为关系模式，补充缺失的属性，分成两步︰首先需要审题，题目会给出每个关系模 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/ad9b823/" title="12.文老师-软件工程基础知识[需求分析]"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/108.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="12.文老师-软件工程基础知识[需求分析]"></a></div><div class="recent-post-info"><a class="article-title" href="/ad9b823/" title="12.文老师-软件工程基础知识[需求分析]">12.文老师-软件工程基础知识[需求分析]</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-14T12:06:16.000Z" title="Created 2023-10-14 20:06:16">2023-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">软件需求
-定义
-软件需求是指用户对系统在功能、行为、性能、设计约束等方面的期望。是指用户解决问题或达到目标所需的条件或能力，是系统或系统部件要满足合同、标准、规范或其他正式规定文档所需具有的条件或能力，以及反映这些条
-件或能力的文档说明。
-
-可以理解为客户需要什么。
-
-分类
-分为需求开发和需求管理两大过程。
-
-
-需求定义：需求规格说明书最为重要。
-需求验证：和客户一起评审，让客户确认需求。
-需求基线：需求验证之后，需求基线形成；如果再变更需求，就需要走变更流程。
-
-系统角度分类
-◆业务需求:反映企业或客户对系统高层次的目标要求，通常来自项目投资人、客户、市场营销部门或产品策划部门。通过业务需求可以确定项目视图和范围。
-
-和具体的实现没有关系。
-
-◆用户需求:描述的是用户的具体目标，或用户要求系统必须能完成的任务。即描述了用户能使用系统来做什么。通常采取用户访谈和问卷调查等方式，对用户使用的场景进行整理，从而建立用户需求。
-◆系统需求:从系统的角度来说明软件的需求，包括功能需求、非功能需求和设计约束等。【考点】
-
-技术人员能够实现的需求。
+【例多选题】甲、乙均为完全民事行为能力人。甲、乙之间的下列约定中，能够产生法律上的权利义务的有()。
+A．甲将房屋出租给乙
+B．二人此生不离不弃
+C．二人共进晚餐
+D．甲送给乙一部手机【赠与关系是法律关系】
+【答案】AD
+【解析】选项BC不属于法律关系。
+法律关系的种类
 
 
 
-1)功能需求:也称为行为需求，规定了开发人 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2f1918a5/" title="12.文老师-软件工程基础知识[系统设计]"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/108.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="12.文老师-软件工程基础知识[系统设计]"></a></div><div class="recent-post-info"><a class="article-title" href="/2f1918a5/" title="12.文老师-软件工程基础知识[系统设计]">12.文老师-软件工程基础知识[系统设计]</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-14T12:06:16.000Z" title="Created 2023-10-14 20:06:16">2023-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">处理流程设计
-业务流程建模【不考】
-标杆瞄准:以行业领先的标杆企业为目标，结合本企业情况分析建模。
-IDEF (一系列建模、分析和仿真方法的统称)。
-
-继承的建模方法。
-
-DEMO (组织动态本质建模法)
-Petri网
-业务流程建模语言: BPEL、 BPML、 BPMN、 XPDL。
-基于服务的BPM:基于Web服务的思想对业务流程进行建模。
-处理流程设计（IDEF ）
-IDEFO: 业务流程(功能)建模;
-IDEF1:信息建模;
-IDEF1X: 数据建模(如ER模型) ;
-IDEF2:仿真建模设计;
-IDEF3:过程描述获取;
-IDEF4:面向对象设计;
-IDEFS:本体论描述获取;
-IDEF6:设计原理获取;
-IDEF7:信息系统审计;
-IDEF8:用户界面建模;
-IDEF9:场景驱动信息系统设计;
-IDEF10:实施架构建模;
-IDEF11:信息制品建模;
-IDEF12:组织结构建模;
-IDEF13:三模式映射设计;
-IDEF14:网络规划。
-流程表示工具【考点】
-程序流程图(Program Flow Diagram,PFD)用一些图框表示各种操作，它独立于任何一种程序设计语言 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/ec63bf76/" title="面向对象技术"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/109.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="面向对象技术"></a></div><div class="recent-post-info"><a class="article-title" href="/ec63bf76/" title="面向对象技术">面向对象技术</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-14T12:06:16.000Z" title="Created 2023-10-14 20:06:16">2023-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">面向对象开发【非常重要】
-
-在采用面向对象技术开发系统时，主要步骤有面向对象分析、面向对象设计、面向对象程序设计和面向对象测试。
-**面向对象分析（OOA）**主要包括︰认定对象、组织对象、描述对象间的相互作用、定义对象的操作、定义对象的内部信息。
-**面向对象设计(OOD)**是设计分析模型和实现相应源代码。
-面向对象程序设计选择合适的面向对象程序设计语言，将程序组织为相互协作的对象集合，每个对象表示某个类的实例，类通过继承等关系进行组织。
-面向对象测试是尽可能早的开始进行系统测试，以发现系统中可能存在的错误并进行修复，进而保证系统质量。
-分析阶段的目的是为了获得对应用问题的理解，确定系统的功能、性能要求，在此阶段主要关注系统的行为，明确系统需要提供什么服务。
-在设计阶段，采用面向对象技术将OOA所创建的分析模型转化为设计模型,其目标是定义系统构造蓝图。
-在实现阶段（面向对象程序设计)，系统实现人员选用一种面向对象程序设计语言，采用对象、类及其相关概念进行程序设计，即实现系统。
-
-基本概念
-(1)对象:由数据及其操作所构成的封装体，是系统中用来描述客观事务的一个实体，是构成系统的一个 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/e5da0ae7/" title="9.文老师-数据结构"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/103.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="9.文老师-数据结构"></a></div><div class="recent-post-info"><a class="article-title" href="/e5da0ae7/" title="9.文老师-数据结构">9.文老师-数据结构</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-14T12:06:15.000Z" title="Created 2023-10-14 20:06:15">2023-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">数据结构
-线性结构
-线性表
-
-线性结构:每个元素最多只有一个出度和一个入度，表现为一条线状。线性表按存储方式【存储结构】分为顺序
-表和链表。
+依据
+种类
+关键词
+备注
 
 
-顺序存储:用一组地址连续的存储单元依次存储线性表中的数据元素，使得逻辑上相邻的元素物理上也相邻。
 
 
-链式存储:存储各数据元素的结点的**地址并不要求是连续的**，数据元素逻辑上相邻,物理上分开；一个节点分为数据域和指针域，数据域记录了当前节点的数据，指针域记录了下一个相邻节点的物理地址。
+法律关系的主体是单方确定还是双方确定
+绝对法律关系（单方）
+义务人不确定
+物权法律关系（所有权）
 
 
-顺序存储和链式存储的对比如下图所示:
+法律关系的主体是单方确定还是双方确定
+相对法律关系（双方）
+义务人确定
+债权法律关系（合同）
 
-◆在空间方面，因为链表还需要存储指针，因此有空间浪费存在。
-◆在时间方面，当需要对元素进行破坏性操作(插入、删除)时，链表效率更高，因为其只需要修改指针指向即可，而顺序表因为地址是连续的，当删除或插入一个元素后，后面的其他节点位置都需要变动。
-◆而当需要对元素进行**不改变结构操作时(读取)，顺序表效率更高,**因为其物理地址是连续的，如同数组一般，只需按索引号就可快速定位，而链表需要从头节点开始，一个个的查找下去。
-选择题若对线性表的最常用操作是访问任意指定序号的元素，并在表尾加入和删除元素，则适宜采用(A ) ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/bf968d65/" title="11.文老师-软件工程基础知识.md"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/105.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="11.文老师-软件工程基础知识.md"></a></div><div class="recent-post-info"><a class="article-title" href="/bf968d65/" title="11.文老师-软件工程基础知识.md">11.文老师-软件工程基础知识.md</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-14T12:06:15.000Z" title="Created 2023-10-14 20:06:15">2023-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">信息系统生命周期
 
-◆软件工程基本原理:用分阶段的生命周期计划严格管理、坚持进行阶段评审、实现严格的产品控制、采用现代程序设计技术、结果应能清楚的审查、开发小组的人员应少而精、承认不断改进软件工程实践的必要性。
-◆软件工程的基本要素:方法、工具过程。
-◆软件生存周期:可行性分析与项目开发计划、需求分析、概要设计(选择系统解决方案，规划子系统)、详细设计(设计子系统内部具体实现)、编码、测试、维护。
-信息系统五阶段生命周期【考点】
-◆1.系统规划阶段:任务是对组织的环境、目标及现行系统的状况进行初步调查,根据组织目标和发展战略确
-定信息系统的发展战略，对建设新系统的需求做出分析和预测，同时考虑建设新系统所受的各种约束，研究建
-设新系统的必要性和可能性。根据需要与可能，给出制建系统的备选方案。
-输出:可行性研究报告、系统设计任务书。
-◆2.系统分析阶段: 任务是根据系统设计任务书所确定的范围，对现行系统进行详细调查，描述现行系统的业
-务流程，指出现行系统的局限性和不足之处,确定新系统的基本目标和逻辑功能要求，即提出新系统的逻辑模
-型。系统分析阶段又称为逻辑设计阶段。这个阶段是整个系统建设的 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/1add703/" title="10.算法分析与设计"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/107.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="10.算法分析与设计"></a></div><div class="recent-post-info"><a class="article-title" href="/1add703/" title="10.算法分析与设计">10.算法分析与设计</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-14T12:06:09.000Z" title="Created 2023-10-14 20:06:09">2023-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">算法设计
-算法的特性
-算法(Algorithm) 是对特定问题求解步骤的一种描述，它是指令的有限序列，其中每一条指令表示一 个或多个操作。 此外，一个算法还具有下列5个重要特性。
-(1)有穷性。一个算法必须总是(对任何合法的输入值)在执行有穷步之后结束,且每一步都可在有穷时间内完成。
-(2)确定性。算法中的每一条指令必须有确切的含义，理解时不会产生二义性。并且在任何条件下，算法只有唯一的一 条执行路径，即对于相同的输入只能得出相同的输出。
-(3)可行性。一个算法是可行的，即算法中描述的操作都可以通过已经实现的基本运算执行有限次来实现。
-(4)输入。一个算法有零个或多个输入，这些输入取自于某个特定的对象的集合。
-(5)输出。一个算法有一个或多个输出，这些输出是同输入有着某些特定关系的
-算法的复杂度【考点】
-◆算法的时间复杂度分析:主要是分析算法的运行时间，即算法执行所需要的基本操作数。不同规模的输入所需要的基本操作数是不相同。在算法分析中,可以建立以输入规模n为自变量的函数T(n)来表示算法的时间复杂度。
-◆即使对于相同的输入规模，数据分布不相同也影响了算法执行路径的不同，因此所需要的执 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/54136ede/" title="9.文老师-程序设计语言基础知识"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/cover/2017GuiDao/102.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="9.文老师-程序设计语言基础知识"></a></div><div class="recent-post-info"><a class="article-title" href="/54136ede/" title="9.文老师-程序设计语言基础知识">9.文老师-程序设计语言基础知识</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-13T12:06:15.000Z" title="Created 2023-10-13 20:06:15">2023-10-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></span></div><div class="content">程序设计语言概述
-程序设计语言的基本概念
-语言的种类
-◆程序设计语言是为了书写计算机程序而人为设计的符号语言,用于对计算过程进行描述、组织和推导。
-◆低级语言:机器语言(计算机硬件只能识别0和1的指令序列)，汇编语言。
+是合法行为还是违法行为，是否适用法律制裁。
+调整性法律关系
+合法行为主体权利实现
+如各种依法建立的民事法律关系
 
-汇编语言需要通过汇编程序转换为机器语言。
 
-◆高级语言:功能更强，抽象级别更高，与人们使用的自然语言比较接近。
-◆各程序设计语言特点【考点】:
-Fortran语言:科学计算，执行效率高。
-Pascal语言:为教学开发，表达能力强。
-C语言:指针操作能力强，可以开发系统级软件,高效。
-C+ +语言:面向对象，高效。
-Java语言:面向对象，中间代码，跨平台。
-C#语言:面向对象，中间代码，.Net框架。
-Python是一种面向对象、解释型计算机程序设计语言。
-Prolog是逻辑型程序设计语言。
-◆汇编: 将汇编语言翻译成目标程序执行。
-◆解释和编译:执行高级语言。不同之处在于编译程序生成独立的可执行文件，直接运行，运行时无法控制源程序，效率高。而解释程序不生成可执行文件，可以逐条解释执行【jupyter可以一行一行的执行程序】，用于调试模式，可以控制源程序，因为还需要控 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/55/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/55/#content-inner">55</a><span class="page-number current">56</span><a class="page-number" href="/page/57/#content-inner">57</a><span class="space">&hellip;</span><a class="page-number" href="/page/85/#content-inner">85</a><a class="extend next" rel="next" href="/page/57/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/%E8%AF%A6%E5%B0%BD%E6%A2%B3%E7%90%86%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/" title="详尽梳理资产证券化产品分析框架"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="详尽梳理资产证券化产品分析框架"/></a><div class="content"><a class="title" href="/%E8%AF%A6%E5%B0%BD%E6%A2%B3%E7%90%86%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/" title="详尽梳理资产证券化产品分析框架">详尽梳理资产证券化产品分析框架</a><time datetime="2024-06-25T01:31:04.865Z" title="Created 2024-06-25 09:31:04">2024-06-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ec564e39/" title="ABS江湖漫谈 |当我们谈论ABS期限时我们在谈什么？"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ABS江湖漫谈 |当我们谈论ABS期限时我们在谈什么？"/></a><div class="content"><a class="title" href="/ec564e39/" title="ABS江湖漫谈 |当我们谈论ABS期限时我们在谈什么？">ABS江湖漫谈 |当我们谈论ABS期限时我们在谈什么？</a><time datetime="2024-06-25T01:06:16.334Z" title="Created 2024-06-25 09:06:16">2024-06-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-06-24T03:13:48.049Z" title="Created 2024-06-24 11:13:48">2024-06-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/27446fd4/" title="ABS/ABN审核流程详解"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ABS/ABN审核流程详解"/></a><div class="content"><a class="title" href="/27446fd4/" title="ABS/ABN审核流程详解">ABS/ABN审核流程详解</a><time datetime="2024-06-24T02:25:35.628Z" title="Created 2024-06-24 10:25:35">2024-06-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E7%91%9E%E6%B3%BD%E5%A4%A9%E9%A9%B02024%E5%B9%B4%E7%AC%AC%E4%B8%80%E6%9C%9F%E4%B8%AA%E4%BA%BA%E6%B1%BD%E8%BD%A6%E6%8A%B5%E6%8A%BC%E8%B4%B7%E6%AC%BE/" title="瑞泽天驰2024年第一期个人汽车抵押贷款资产支持证券信用评级报告"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="瑞泽天驰2024年第一期个人汽车抵押贷款资产支持证券信用评级报告"/></a><div class="content"><a class="title" href="/%E7%91%9E%E6%B3%BD%E5%A4%A9%E9%A9%B02024%E5%B9%B4%E7%AC%AC%E4%B8%80%E6%9C%9F%E4%B8%AA%E4%BA%BA%E6%B1%BD%E8%BD%A6%E6%8A%B5%E6%8A%BC%E8%B4%B7%E6%AC%BE/" title="瑞泽天驰2024年第一期个人汽车抵押贷款资产支持证券信用评级报告">瑞泽天驰2024年第一期个人汽车抵押贷款资产支持证券信用评级报告</a><time datetime="2024-06-24T00:34:31.072Z" title="Created 2024-06-24 08:34:31">2024-06-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2cf9c159/" title="合并报表中成本法转为权益法是否考虑内部交易损益（注会疑问）"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="合并报表中成本法转为权益法是否考虑内部交易损益（注会疑问）"/></a><div class="content"><a class="title" href="/2cf9c159/" title="合并报表中成本法转为权益法是否考虑内部交易损益（注会疑问）">合并报表中成本法转为权益法是否考虑内部交易损益（注会疑问）</a><time datetime="2024-06-23T10:31:18.572Z" title="Created 2024-06-23 18:31:18">2024-06-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/73d6d856/" title="信贷ABS的投资要点"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="信贷ABS的投资要点"/></a><div class="content"><a class="title" href="/73d6d856/" title="信贷ABS的投资要点">信贷ABS的投资要点</a><time datetime="2024-06-22T00:51:43.746Z" title="Created 2024-06-22 08:51:43">2024-06-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/b7e06d89/" title="13.2.3嵌入式衍生工具"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="13.2.3嵌入式衍生工具"/></a><div class="content"><a class="title" href="/b7e06d89/" title="13.2.3嵌入式衍生工具">13.2.3嵌入式衍生工具</a><time datetime="2024-06-19T13:59:34.875Z" title="Created 2024-06-19 21:59:34">2024-06-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E2%80%94%E2%80%94%E8%B4%B7%E6%AC%BE/" title="金融企业会计——贷款"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="金融企业会计——贷款"/></a><div class="content"><a class="title" href="/%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E2%80%94%E2%80%94%E8%B4%B7%E6%AC%BE/" title="金融企业会计——贷款">金融企业会计——贷款</a><time datetime="2024-06-19T07:44:13.786Z" title="Created 2024-06-19 15:44:13">2024-06-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E5%91%86%E8%B4%A6%E6%A0%B8%E9%94%80%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/" title="金融企业呆账核销管理办法"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="金融企业呆账核销管理办法"/></a><div class="content"><a class="title" href="/%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E5%91%86%E8%B4%A6%E6%A0%B8%E9%94%80%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/" title="金融企业呆账核销管理办法">金融企业呆账核销管理办法</a><time datetime="2024-06-19T01:11:51.278Z" title="Created 2024-06-19 09:11:51">2024-06-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E9%93%B6%E8%A1%8C%E6%8F%90%E9%97%AE/" title="银行提问"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="银行提问"/></a><div class="content"><a class="title" href="/%E9%93%B6%E8%A1%8C%E6%8F%90%E9%97%AE/" title="银行提问">银行提问</a><time datetime="2024-06-18T06:11:22.385Z" title="Created 2024-06-18 14:11:22">2024-06-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-06-17T10:05:27.767Z" title="Created 2024-06-17 18:05:27">2024-06-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-06-17T09:18:25.520Z" title="Created 2024-06-17 17:18:25">2024-06-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-06-15T07:00:33.303Z" title="Created 2024-06-15 15:00:33">2024-06-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-06-14T12:47:13.834Z" title="Created 2024-06-14 20:47:13">2024-06-14</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 1.33em; color: rgb(158, 146, 58)">编程</a><a href="/tags/hexo/" style="font-size: 1.21em; color: rgb(6, 0, 10)">hexo</a><a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 1.15em; color: rgb(124, 40, 180)">数学</a><a href="/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/" style="font-size: 1.39em; color: rgb(181, 108, 77)">宏观经济学</a><a href="/tags/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/" style="font-size: 1.39em; color: rgb(55, 112, 80)">实用网站</a><a href="/tags/CPA%E4%BC%9A%E8%AE%A1/" style="font-size: 1.45em; color: rgb(39, 75, 129)">CPA会计</a><a href="/tags/%E4%BC%9A%E8%AE%AE/" style="font-size: 1.27em; color: rgb(143, 62, 156)">会议</a><a href="/tags/%E5%B7%AE%E6%97%85/" style="font-size: 1.15em; color: rgb(48, 1, 99)">差旅</a><a href="/tags/%E7%A8%8E%E5%8A%A1%E5%B8%88/" style="font-size: 1.21em; color: rgb(99, 49, 18)">税务师</a><a href="/tags/CPA%E7%A8%8E%E6%B3%95/" style="font-size: 1.21em; color: rgb(124, 168, 23)">CPA税法</a><a href="/tags/%E5%B1%95%E8%A7%88/" style="font-size: 1.15em; color: rgb(189, 161, 15)">展览</a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 1.15em; color: rgb(86, 178, 89)">数据分析</a><a href="/tags/%E7%BB%8F%E9%94%80%E5%95%86%E8%B5%B0%E8%AE%BF/" style="font-size: 1.21em; color: rgb(101, 166, 98)">经销商走访</a><a href="/tags/%E5%85%A5%E8%81%8C%E5%9F%B9%E8%AE%AD/" style="font-size: 1.15em; color: rgb(90, 40, 92)">入职培训</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span><a class="card-more-btn" href="/archives/" title="View More">
-    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">June 2024</span><span class="card-archive-list-count">51</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">May 2024</span><span class="card-archive-list-count">51</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">April 2024</span><span class="card-archive-list-count">72</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">March 2024</span><span class="card-archive-list-count">64</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">February 2024</span><span class="card-archive-list-count">59</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">January 2024</span><span class="card-archive-list-count">60</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">December 2023</span><span class="card-archive-list-count">29</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">November 2023</span><span class="card-archive-list-count">29</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">846</div></div><div class="webinfo-item"><div class="item-name">Total Count :</div><div class="item-count">3085.6k</div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-07-03T04:18:16.731Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 民工</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+是合法行为还是违法行为，是否适用法律制裁。
+保护性法律关系
+违法行为
+刑事法律关系
+
+
+
+
+
+
+
+
+
+
+任何人 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/33f735ee/" title="1.1法律基本概念-法律基本原理"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="1.1法律基本概念-法律基本原理"></a></div><div class="recent-post-info"><a class="article-title" href="/33f735ee/" title="1.1法律基本概念-法律基本原理">1.1法律基本概念-法律基本原理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-18T08:35:01.068Z" title="Created 2023-12-18 16:35:01">2023-12-18</time></span></div><div class="content">【考情分析】
+本章在历年考试中所占的分值为3分左右。本章内容比较简单，考点相对较少，重点理解为主。其中主要考点为：法律规范、法律渊源、法律关系。2023年本章新增“党的二十大报告”相关内容。
+一、什么是法？
+法是反映由一定物质生活条件所决定的统治阶级意志的、由国家制定或认可并由国家强制力保证实施的，赋予社会关系参加者权利和义务的社会规范的总称。
+与其他类型的社会规范相比，法具有以下特征：
+1、法是由一定社会的经济基础即特定物质生活条件所决定的。物质生活条件所决定的统治阶级意志的体现；
+【注意】按照马克思主义“经济基础决定上层建筑”的基本原理，作为上层建筑重要组成部分的法，是由具体的经济基础即特定物质生活条件所决定的，因此，统治阶级不可能任意立法。
+【解释】法代表的是统治阶级的整体意志，而不是统治阶级中个别人或个别集团的意志。
+​	【例-单选题】“君主们在任何时候都不得不服从经济条件，并且从来不能向经济条件发号施令。”马克思的这句名言所体现的法的特征是（）。
+A．法是统治阶级意志的体现
+B．法受物质生活条件的制约
+C．法是由国家强制力保障实施的行为规范
+D．法是国家意志的体现
+【答案】B ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/28276650/" title="1.法律基本原理"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="1.法律基本原理"></a></div><div class="recent-post-info"><a class="article-title" href="/28276650/" title="1.法律基本原理">1.法律基本原理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-17T14:46:34.022Z" title="Created 2023-12-17 22:46:34">2023-12-17</time></span></div><div class="content">【考点1】法
+（一）法的概念
+法是反映由一定物质生活条件所决定的统治阶级意志的，由国家制定或认可并得到国家强制力保证的，赋予社会关系参加者权利与义务的社会规范的总称。
+（二）法的特征
+
+
+法是由一定物质生活条件所决定的统治阶级意志的体现。
+
+
+法是由国家制定或认可的行为规范。
+
+
+【提示】体现了法的国家意志性。
+
+法是由国家强制力保证实施的行为规范。
+
+【提示】国家强制力由军队、警察、监狱等国家机构作为支持。
+法具有国家强制力并不意味着法律规范的实施都是依靠国家强制力而实现，也不等于国家强制力是保证法律实施的唯一力量。
+法律的实施主要依赖于社会主体的自觉遵守和执行。
+
+
+法是调整人的行为和社会关系的行为规范。
+
+
+法是确定社会关系参加者的权利和义务的规范。
+
+
+法律虽是调整人类社会关系的重要社会规范，但并不是唯一的社会规范。道德、宗教规范及风俗习惯也发挥着重要作用。
+
+
+法律意识与道德观念紧密联系、相互重叠，法律规范与道德规范的调整范围相互交叉、相互包容。
+【突击总结】
+（1）物质生活条件所决定
+（2）统治阶级意志体现
+（3）国家制定或认可的行为规范【行为规范包括社会规范、技术规范，但 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/9e5074b5/" title="3.1利率"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="3.1利率"></a></div><div class="recent-post-info"><a class="article-title" href="/9e5074b5/" title="3.1利率">3.1利率</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-16T05:14:03.790Z" title="Created 2023-12-16 13:14:03">2023-12-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/CPA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/">CPA财务管理</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/CPA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/3-%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E5%9F%BA%E7%A1%80/">3.价值评估基础</a></span></div><div class="content">考试概况
+
+
+本专题主要介绍利率、货币时间价值、风险与报酬、债券及股票的估价模型
+
+
+平均分值为8分左右。但作为后续章节的计算基础，其他章节的考察也会与本专题结合。例如，本章所学普通股估值模型是后续第七章企业价值评估中现金流量折现模型的基本理念。其他章节的考察也会与本专题结合。例如，本章所学普通股估值模型是后续第七章企业价值评估中现金流量折现模型的基本理念。
+
+
+内容大纲
+
+
+基准利率及其特征
+利率
+
+
+
+
+
+
+
+
+
+含义
+利率表示一定时期内利息与本金的比率，通常用百分比表示
+
+
+计算
+利率的一般计算公式是：利率＝利息/本金×100%利率根据计量的期限标准不同，表示方法有年利率、月利率、日利率等
+
+
+影响因素
+首先，利率受到产业的平均利润率水平、货币供给与需求状况、经济发展状况等因素的影响；其次，又受到物价水平、利率决定机制、国际经济状况和货币政策因素的影响
+
+
+
+基准利率
+
+
+
+
+
+
+
+
+
+作用
+1.基准利率是金融市场上具有普遍参照作用的利率，其他利率水平或金融资产价格均受这一基准利率水平的影响。2.基准利率是利率市场化的重要前提之一，在市场决定利率的条件下，融资者衡量融资成本，投资 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/cec42c26/" title="2.1财务报表分析的目的与方法"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2.1财务报表分析的目的与方法"></a></div><div class="recent-post-info"><a class="article-title" href="/cec42c26/" title="2.1财务报表分析的目的与方法">2.1财务报表分析的目的与方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-16T03:02:58.507Z" title="Created 2023-12-16 11:02:58">2023-12-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/CPA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/">CPA财务管理</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/CPA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/2-%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90%E5%92%8C%E8%B4%A2%E5%8A%A1%E9%A2%84%E6%B5%8B/">2.财务报表分析和财务预测</a></span></div><div class="content">
+
+【考情回顾】主观题、客观题均有，10分左右，非常重要。
+财务报表分析的目的及维度
+一、财务报表分析的目的
+财务报表分析的目的是将财务报表数据转换成有用的信息，以帮助信息使用者改善决策。
+
+
+
+
+维度
+目的
+
+
+
+
+战略分析
+确定利润动因、经营风险、盈利能力。包括宏观分析、行业分析、公司竞争策略分析
+
+
+会计分析
+评价会计反映经济业务的程度。包括评估会计的灵活性、恰当性、修正会计数据等
+
+
+财务分析
+运用财务数据评价公司当前和过去的业绩。包括比率分析、现金流量分析等
+
+
+前景分析
+预测企业未来。包括财务报表预测和公司估值等
+
+
+
+财务报表分析的方法
+
+
+
+分析方法
+含义
+
+
+
+
+比较分析法
+是对两个或两个以个有关的可比数据进行对比，从而揭示趋势或差异【 哪有差异？】
+
+
+因素分析法
+是依据财务指标与其驱动因素之间的关系，从数量上确定各因素对指标影响程度的一种方法 【差异如何产生的？】
+
+
+
+比较分析法
+
+
+
+
+
+
+
+
+
+按比较对象 分（跟谁比）
+1.趋势分析（与本企业历史的比较分析）2.横向分析（本企业与同类企业的比较分析）3.预算差异分析（本企业实际与计划预算的比较分析）
+
+
+按比 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/e852f6aa/" title="第一章财务管理基本原理"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第一章财务管理基本原理"></a></div><div class="recent-post-info"><a class="article-title" href="/e852f6aa/" title="第一章财务管理基本原理">第一章财务管理基本原理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-15T12:03:53.334Z" title="Created 2023-12-15 20:03:53">2023-12-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/CPA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/">CPA财务管理</a></span></div><div class="content">[TOC]
+【考情回顾】
+客观题，平均分值3分左右，不重要。
+【重要考点提示】
+1.股东财富最大化；
+2.利益冲突与协调；
+3.金融工具与金融市场；
+4.资本市场效率。
+第一节企业组织形式和财务管理内容
+一、企业的组织形式
+任何组织都需要财务管理，但是营利性组织与非营利组织的财务管理有较大区别。本教材讨论的是营利性组织的财务管理，即企业财务管理。
+财务管理的内容、程序和方法与企业的组织形式有密切关系。典型的企业组织形式有三种：个人独资企业、合伙企业以及公司制企业。
+（一）个人独资企业
+
+
+
+
+
+
+
+
+
+含义
+指由一个自然人投资，财产为投资人个人所有，投资人以其个人财产对企业债务承担无限责任的经营实体。【个人承担的风险较大】
+
+
+优点
+（1）创立容易。例如，不需要与他人协商并取得一致，只需要很少的注册资金；（2）维持个人独资企业的固定成本较低。例如，政府对其监管较少，对其规模也没有什么限制，企业内部协调比较容易；（3）不需要交纳企业所得税。
+
+
+缺点
+（1）业主对企业债务承担无限责任，有时企业的损失会超过业主最初对企业的投资，需要用其他个人财产偿债；（2）存续年限受限于业主的寿命；（3） ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/c086c996/" title="Balance sheet classification"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Balance sheet classification"></a></div><div class="recent-post-info"><a class="article-title" href="/c086c996/" title="Balance sheet classification">Balance sheet classification</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-14T05:23:59.039Z" title="Created 2023-12-14 13:23:59">2023-12-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/">财务报表分析</a></span></div><div class="content">Structure and Components of the Balance Sheet
+Asset
+
+由企业控制的，由过去的交易或事件产生的，预期能够企业带来收益的资源。
+
+
+
+resources controlled by the enterprise as a result of past events and from which future economic benefits are expected to flow to the enterprise. (past and future).
+
+
+purchase (investing activities), or generated through business activities (operating activities), or financing activities, such as issuance of debt (all business activities and affect)
+
+
+Example of Asset
+
+
+Format of the Balance Sheet
+Identify ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/813028cf/" title="1.3现金流量表的分析"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="1.3现金流量表的分析"></a></div><div class="recent-post-info"><a class="article-title" href="/813028cf/" title="1.3现金流量表的分析">1.3现金流量表的分析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-14T03:23:06.474Z" title="Created 2023-12-14 11:23:06">2023-12-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/">财务报表分析</a></span></div><div class="content">[TOC]
+Four Steps to Analyze a Cash Flow Statement
+Investigate the adequacy of cash flow【现金流的充足性】 generated by business activities
+
+core profit yield of cash flow= net cash flow from operating activities / core profit
+A ratio between 1.2-1.5 is ideal for most companies
+Example: Guizhou Maotai had a high net profit cash ratio in 2010-2011 as unearned income【预收账款】 from distributors【经销商】 increased significantly. But the ratio dropped in 2012-2013 as dealer enthusiasm and inventory issues affected sa ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/a09bd71b/" title="1.1现金流量表"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="1.1现金流量表"></a></div><div class="recent-post-info"><a class="article-title" href="/a09bd71b/" title="1.1现金流量表">1.1现金流量表</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-13T02:00:02.721Z" title="Created 2023-12-13 10:00:02">2023-12-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/">财务报表分析</a></span></div><div class="content">现金流量表编制原理
+Explains why a firm’s cash position changed between successive balance sheet dates. Here’s the balance sheet equation:
+
+Cash flow statement format
+
+https://www.wsj.com/market-data/quotes/HRB/financials/annual/cash-flow
+
+Operating  Activities：Cash inflows and outflows from transactions and events that affect operating income【加工商品、生产劳务】
+lnvesting  Activities：Cash inflows and outflows from loaning money to others, investing in securities, or
+in assets (e.g., equipment) used to produce goo ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/fe4ef611/" title="Measurement Bases for Assets"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Measurement Bases for Assets"></a></div><div class="recent-post-info"><a class="article-title" href="/fe4ef611/" title="Measurement Bases for Assets">Measurement Bases for Assets</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-12T03:46:02.128Z" title="Created 2023-12-12 11:46:02">2023-12-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90/">财务报表分析</a></span></div><div class="content">Measurement Bases for Assets
+
+
+Historical Cost:
+
+The amount originally paid to acquire the asset.
+Reflects the actual cash outlay made.
+Is objective and verifiable through documentation.
+Does not capture changes in asset value over time.
+
+
+
+Adjusted Historical Cost:
+
+Historical cost less accumulated depreciation/amortization.
+Attempts to allocate historical cost over asset’s useful life.
+Involves management judgments on useful life.
+
+
+
+Present Value:
+
+Discounted present value of expected future  ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/55/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/55/#content-inner">55</a><span class="page-number current">56</span><a class="page-number" href="/page/57/#content-inner">57</a><span class="space">&hellip;</span><a class="page-number" href="/page/89/#content-inner">89</a><a class="extend next" rel="next" href="/page/57/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-21T03:10:19.823Z" title="Created 2024-08-21 11:10:19">2024-08-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%A4%96%E5%B8%81%E6%8A%98%E7%AE%97/" title="外币折算"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="外币折算"/></a><div class="content"><a class="title" href="/%E5%A4%96%E5%B8%81%E6%8A%98%E7%AE%97/" title="外币折算">外币折算</a><time datetime="2024-08-19T05:19:32.675Z" title="Created 2024-08-19 13:19:32">2024-08-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-19T05:08:29.006Z" title="Created 2024-08-19 13:08:29">2024-08-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-18T15:27:48.791Z" title="Created 2024-08-18 23:27:48">2024-08-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/18.%E4%B8%B2%E8%AE%B2-%E6%89%80%E5%BE%97%E7%A8%8E/" title="18.串讲-所得税"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="18.串讲-所得税"/></a><div class="content"><a class="title" href="/18.%E4%B8%B2%E8%AE%B2-%E6%89%80%E5%BE%97%E7%A8%8E/" title="18.串讲-所得税">18.串讲-所得税</a><time datetime="2024-08-17T02:13:44.297Z" title="Created 2024-08-17 10:13:44">2024-08-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E4%B8%B2%E8%AE%B2-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E7%AB%A0%E5%90%88%E5%B9%B6%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8/" title="6.串讲-合并财务报表"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="6.串讲-合并财务报表"/></a><div class="content"><a class="title" href="/%E4%B8%B2%E8%AE%B2-%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E7%AB%A0%E5%90%88%E5%B9%B6%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8/" title="6.串讲-合并财务报表">6.串讲-合并财务报表</a><time datetime="2024-08-15T12:52:31.550Z" title="Created 2024-08-15 20:52:31">2024-08-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96%E8%AF%84%E7%BA%A7%E6%A1%86%E6%9E%B6/" title="资产证券化评级框架"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="资产证券化评级框架"/></a><div class="content"><a class="title" href="/%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96%E8%AF%84%E7%BA%A7%E6%A1%86%E6%9E%B6/" title="资产证券化评级框架">资产证券化评级框架</a><time datetime="2024-08-12T09:04:03.748Z" title="Created 2024-08-12 17:04:03">2024-08-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-12T08:07:22.764Z" title="Created 2024-08-12 16:07:22">2024-08-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/5.%E4%B8%B2%E8%AE%B2-%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E4%B8%8E%E5%90%88%E8%90%A5%E5%AE%89%E6%8E%92/" title="5.串讲-长期股权投资与合营安排"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="5.串讲-长期股权投资与合营安排"/></a><div class="content"><a class="title" href="/5.%E4%B8%B2%E8%AE%B2-%E9%95%BF%E6%9C%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E4%B8%8E%E5%90%88%E8%90%A5%E5%AE%89%E6%8E%92/" title="5.串讲-长期股权投资与合营安排">5.串讲-长期股权投资与合营安排</a><time datetime="2024-08-11T10:22:31.400Z" title="Created 2024-08-11 18:22:31">2024-08-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-10T15:51:15.865Z" title="Created 2024-08-10 23:51:15">2024-08-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-10T15:08:27.544Z" title="Created 2024-08-10 23:08:27">2024-08-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-10T13:28:17.983Z" title="Created 2024-08-10 21:28:17">2024-08-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-08T12:31:07.334Z" title="Created 2024-08-08 20:31:07">2024-08-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-08T12:29:17.333Z" title="Created 2024-08-08 20:29:17">2024-08-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/0/" title="Untitled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Untitled"/></a><div class="content"><a class="title" href="/0/" title="Untitled">Untitled</a><time datetime="2024-08-07T14:48:32.400Z" title="Created 2024-08-07 22:48:32">2024-08-07</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 1.33em; color: rgb(99, 148, 105)">编程</a><a href="/tags/hexo/" style="font-size: 1.21em; color: rgb(77, 100, 179)">hexo</a><a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 1.15em; color: rgb(162, 1, 23)">数学</a><a href="/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/" style="font-size: 1.39em; color: rgb(116, 106, 81)">宏观经济学</a><a href="/tags/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/" style="font-size: 1.39em; color: rgb(31, 103, 197)">实用网站</a><a href="/tags/CPA%E4%BC%9A%E8%AE%A1/" style="font-size: 1.45em; color: rgb(142, 189, 147)">CPA会计</a><a href="/tags/%E4%BC%9A%E8%AE%AE/" style="font-size: 1.27em; color: rgb(39, 106, 158)">会议</a><a href="/tags/%E5%B7%AE%E6%97%85/" style="font-size: 1.15em; color: rgb(171, 48, 86)">差旅</a><a href="/tags/%E7%A8%8E%E5%8A%A1%E5%B8%88/" style="font-size: 1.21em; color: rgb(178, 52, 168)">税务师</a><a href="/tags/CPA%E7%A8%8E%E6%B3%95/" style="font-size: 1.21em; color: rgb(119, 200, 94)">CPA税法</a><a href="/tags/%E7%BB%8F%E9%94%80%E5%95%86%E8%B5%B0%E8%AE%BF/" style="font-size: 1.21em; color: rgb(1, 9, 90)">经销商走访</a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 1.15em; color: rgb(48, 123, 33)">数据分析</a><a href="/tags/%E5%B1%95%E8%A7%88/" style="font-size: 1.15em; color: rgb(92, 189, 197)">展览</a><a href="/tags/%E5%85%A5%E8%81%8C%E5%9F%B9%E8%AE%AD/" style="font-size: 1.15em; color: rgb(181, 15, 19)">入职培训</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span><a class="card-more-btn" href="/archives/" title="View More">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">August 2024</span><span class="card-archive-list-count">25</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">July 2024</span><span class="card-archive-list-count">14</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">June 2024</span><span class="card-archive-list-count">51</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">May 2024</span><span class="card-archive-list-count">51</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">April 2024</span><span class="card-archive-list-count">72</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">March 2024</span><span class="card-archive-list-count">64</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">February 2024</span><span class="card-archive-list-count">59</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">January 2024</span><span class="card-archive-list-count">60</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">885</div></div><div class="webinfo-item"><div class="item-name">Total Count :</div><div class="item-count">3420.8k</div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-08-21T04:02:48.292Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By 民工</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
   init: (str) => {
     window.typed = new Typed('#subtitle', Object.assign({
       strings: str,
